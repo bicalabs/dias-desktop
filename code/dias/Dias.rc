@@ -1,0 +1,2234 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Dias.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+AFX_IDC_HSPLITBAR       CURSOR  DISCARDABLE     "res\\splith.cur"
+AFX_IDC_SMALLARROWS     CURSOR  DISCARDABLE     "res\\sarrows.cur"
+AFX_IDC_TRACK4WAY       CURSOR  DISCARDABLE     "res\\trck4way.cur"
+IDC_CURSOR2             CURSOR  DISCARDABLE     "res\\cur00002.cur"
+IDC_CURSOR3             CURSOR  DISCARDABLE     "res\\cur00003.cur"
+IDC_CURSOR4             CURSOR  DISCARDABLE     "res\\cur00004.cur"
+IDC_CURSOR11            CURSOR  DISCARDABLE     "res\\shp_p.cur"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_ZOOMIN              CURSOR  DISCARDABLE     "res\\magnify.cur"
+IDC_ZOOMOUT             CURSOR  DISCARDABLE     "res\\zoomout.cur"
+IDC_POINTER             CURSOR  DISCARDABLE     "res\\pointer.cur"
+IDC_IOBJCREATE          CURSOR  DISCARDABLE     "res\\shapes.cur"
+IDC_MRKCREATE           CURSOR  DISCARDABLE     "res\\markcrea.cur"
+IDCX_ZOOMIN_AREASEL     CURSOR  DISCARDABLE     "res\\x-zi-as.cur"
+IDCX_IOBJPTR_MOVE       CURSOR  DISCARDABLE     "res\\x-ip-m.cur"
+IDC_MRKPTR              CURSOR  DISCARDABLE     "res\\mrk_ptr.cur"
+IDC_TEXTCNG             CURSOR  DISCARDABLE     "res\\textcng.cur"
+IDC_TEXTCREATE          CURSOR  DISCARDABLE     "res\\textcreate.cur"
+IDCX_ZOOMOUT_AREASEL    CURSOR  DISCARDABLE     "res\\x-zo-as.cur"
+IDC_MRKPTR_MOVE         CURSOR  DISCARDABLE     "res\\mrkptr_move.cur"
+IDC_MRKPTR_SIZEX        CURSOR  DISCARDABLE     "res\\mrkptr_movex.cur"
+IDC_MRKPTR_SIZEY        CURSOR  DISCARDABLE     "res\\mrkptr_movey.cur"
+IDC_MRKPTR_SIZEXY       CURSOR  DISCARDABLE     "res\\mrkptr_movexy.cur"
+IDC_MRKPTR_ROT          CURSOR  DISCARDABLE     "res\\mrkptr_rot.cur"
+IDC_MRKSEL              CURSOR  DISCARDABLE     "res\\mrkptr_sel.cur"
+IDC_MRKPTR_SIZEYROT     CURSOR  DISCARDABLE     "res\\mrkptr_moveyrot.cur"
+IDC_MRKPTR_SIZEXYROT    CURSOR  DISCARDABLE     "res\\mrkptr_movexyrot.cur"
+IDC_MRKPTR_SIZEXROT     CURSOR  DISCARDABLE     "res\\mrkptr_movexrot.cur"
+IDC_HAND                CURSOR  DISCARDABLE     "res\\hand.cur"
+IDC_HANDSHAKE           CURSOR  DISCARDABLE     "res\\handshake.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MENUCOUNT DIALOG DISCARDABLE  0, 0, 226, 12
+STYLE DS_3DLOOK | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Slider1",IDC_MC_SLIDER,"msctls_trackbar32",WS_TABSTOP,1,
+                    1,120,10
+    CONTROL         "px",IDC_MC_RADIOPX,"Button",BS_AUTORADIOBUTTON,122,2,42,
+                    10
+    CONTROL         "system",IDC_MC_RADIOSYS,"Button",BS_AUTORADIOBUTTON,171,
+                    2,51,10
+    PUSHBUTTON      "ok",IDOK,0,0,16,10,NOT WS_VISIBLE
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 400, 185
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         202,IDC_STATIC,"Static",SS_BITMAP,0,0,400,185
+    DEFPUSHBUTTON   "OK",IDOK,282,167,50,14,WS_GROUP
+END
+
+IDD_DOC_ADD_IMAGES DIALOGEX 0, 0, 207, 228
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Add images"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_DAI_COUNT,118,7,82,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_COUNT_SPIN,"msctls_updown32",UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,189,7,11,12
+    EDITTEXT        IDC_DAI_NAME,7,38,138,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Templete",IDC_DAI_TEMPL2,150,36,50,14
+    EDITTEXT        IDC_DAI_DESCR,7,65,137,41,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "Templete",IDC_DAI_TEMPL3,150,65,50,14
+    CONTROL         "In the beginning of file",IDC_DAI_POSTOP,"Button",
+                    BS_AUTORADIOBUTTON,7,123,85,10
+    CONTROL         "At the end of file",IDC_DAI_POSEND,"Button",
+                    BS_AUTORADIOBUTTON,7,134,67,10
+    CONTROL         "After the every selected image",IDC_DAI_POSEVERY,"Button",
+                    BS_AUTORADIOBUTTON | BS_MULTILINE,7,142,89,22
+    CONTROL         "Before the active image",IDC_DAI_POSBEFOREACT,"Button",
+                    BS_AUTORADIOBUTTON,109,122,91,10
+    CONTROL         "After the active image",IDC_DAI_POSAFTERACT,"Button",
+                    BS_AUTORADIOBUTTON,109,133,85,10
+    CONTROL         "Before the selection",IDC_DAI_POSBEFORESEL,"Button",
+                    BS_AUTORADIOBUTTON,109,143,79,10
+    CONTROL         "After the selection",IDC_DAI_POSAFTERSEL,"Button",
+                    BS_AUTORADIOBUTTON,109,154,73,10
+    CONTROL         "Select added images",IDC_DAI_SELECT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,181,82,10
+    CONTROL         "Add selection to current",IDC_DAI_SELECTADD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,193,91,10
+    DEFPUSHBUTTON   "OK",IDOK,92,207,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,150,207,50,14
+    LTEXT           "Number of images to add:",IDC_STATIC,34,9,82,8
+    LTEXT           "Images name:",IDC_STATIC,7,27,45,8
+    LTEXT           "Images description:",IDC_STATIC,7,56,62,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,117,193,1
+    LTEXT           "Images position",IDC_STATIC,7,112,50,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,173,193,1
+    LTEXT           "Images selection",IDC_STATIC,7,168,54,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,23,192,1
+    ICON            IDI_ICON_IMAGES,IDC_STATIC,7,7,20,20
+END
+
+IDD_DOC_NEW DIALOG DISCARDABLE  0, 0, 243, 326
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New storage"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_DN_NAME,104,7,132,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DN_DESCRIPTION,104,24,132,26,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    COMBOBOX        IDC_DN_PRESENTS,7,67,138,67,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_DN_SAVE,"Static",SS_GRAYRECT,149,68,27,9
+    CONTROL         "",IDC_DN_IMPORT,"Static",SS_GRAYRECT,179,68,27,9
+    CONTROL         "",IDC_DN_DELETE,"Static",SS_GRAYRECT,209,68,27,9
+    EDITTEXT        IDC_DN_COUNT,104,98,59,12,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_DN_DIMX,104,115,50,148,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DN_DIMY,167,115,52,148,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",IDC_DN_MODELS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,144,229,105
+    CONTROL         "Maual",IDC_DN_CREATE_MANUAL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,7,267,35,10
+    CONTROL         "Acquire from:",IDC_DN_CREATE_ARCUIRE,"Button",
+                    BS_AUTORADIOBUTTON,7,279,57,10
+    COMBOBOX        IDC_DN_SOURCE,65,278,117,95,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Devices...",IDC_DN_DEVICES,186,278,50,14
+    DEFPUSHBUTTON   "Create",IDOK,127,305,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,186,305,50,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,89,229,1
+    LTEXT           "Settings ",IDC_STATIC,7,85,28,8
+    LTEXT           "Resolution:",IDC_STATIC,62,117,36,8
+    CTEXT           "x",IDC_STATIC,156,118,8,8
+    LTEXT           "Initial number of images:",IDC_STATIC,22,99,76,8
+    LTEXT           "Storage name:",IDC_STATIC,51,10,47,8
+    LTEXT           "Storage description:",IDC_STATIC,34,24,64,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,258,227,1
+    LTEXT           "Creation method ",IDC_STATIC,7,254,54,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,57,229,1
+    LTEXT           "Presets ",IDC_STATIC,7,53,26,8
+    ICON            IDR_DISTYPE,IDC_STATIC,7,7,21,20
+    LTEXT           "Color model:",IDC_STATIC,7,132,40,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,9,298,226,1
+END
+
+IDD_COUNT DIALOG DISCARDABLE  0, 0, 242, 46
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_COUNT_COUNT,129,15,40,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_COUNT_SPIN,"msctls_updown32",UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS,163,15,11,12
+    DEFPUSHBUTTON   "OK",IDOK,185,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,185,24,50,14
+    LTEXT           "Specify amount of something",IDC_COUNT_PROMPT,7,17,116,
+                    8
+END
+
+IDD_START DIALOGEX 0, 0, 183, 189
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "DIAS"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Start the program",IDC_START_START,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,7,7,70,10
+    CONTROL         "Create an empty storage",IDC_START_NEW,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,7,20,93,10
+    CONTROL         "Create a new storage in acquire mode",IDC_START_ACQUIRE,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,7,34,135,10
+    CONTROL         "Load a recent storage",IDC_START_RECENT,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,7,47,85,10
+    LISTBOX         IDC_START_LIST,7,62,169,60,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Load other storage",IDC_START_LOAD,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,7,127,75,10
+    CONTROL         "Perform this action as default when starting DIAS",
+                    IDC_START_DEFAULT,"Button",BS_AUTOCHECKBOX | BS_VCENTER | 
+                    WS_TABSTOP,7,151,169,8
+    DEFPUSHBUTTON   "OK",IDOK,35,167,50,14
+    PUSHBUTTON      "Exit",IDCANCEL,97,167,50,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,142,169,1
+END
+
+IDD_DOC_ADD_IMPORT DIALOG DISCARDABLE  0, 0, 263, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Import images"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,206,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,206,24,50,14
+    LTEXT           "Image '%s' differs from the current document settings in:",
+                    IDC_STATIC,7,7,136,19
+    LTEXT           "* Image size",IDC_STATIC,7,44,39,8
+    LTEXT           "* Color model",IDC_STATIC,7,56,42,8
+    LTEXT           "* Color depth",IDC_STATIC,7,67,42,8
+    CONTROL         "",IDC_DAI_SIZE_DOC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,68,44,16,8
+    CONTROL         "",IDC_DAI_SIZE_IMG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,44,16,8
+    CONTROL         "",IDC_DAI_MODEL_DOC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,68,56,16,8
+    CONTROL         "",IDC_DAI_MODEL_IMG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,56,16,8
+    CONTROL         "",IDC_DAI_DEPTH_DOC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,68,67,16,8
+    CONTROL         "",IDC_DAI_DEPTH_IMG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,67,16,8
+END
+
+IDD_TBP_MRKCREATE DIALOGEX 0, 0, 650, 20
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_MRKPB_STYLE,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,49,1,121,17
+    CONTROL         "",IDC_MRKPB_KERNEL,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,203,1,30,17
+    CONTROL         "",IDC_MRKPB_ICO_KRNLSIZE,"Static",SS_GRAYFRAME,241,0,10,
+                    9
+    CONTROL         "",IDC_MRKPB_ICO_KRNLCOL,"Static",SS_GRAYFRAME,241,10,10,
+                    9
+    CONTROL         "",IDC_MRKPB_KRNLSIZE,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,251,0,35,9
+    CONTROL         "",IDC_MRKPB_KRNLCOLOR,"Static",SS_GRAYRECT | SS_NOTIFY | 
+                    WS_TABSTOP,251,10,35,9,WS_EX_STATICEDGE
+    CONTROL         "",IDC_MRKPB_SHAPE,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,319,1,30,17
+    CONTROL         "",IDC_MRKPB_SHPY,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,367,10,35,9
+    CONTROL         "",IDC_MRKPB_SIZE_LOCK,"Static",SS_GRAYFRAME | SS_NOTIFY | 
+                    WS_TABSTOP,403,5,9,9
+    CONTROL         "",IDC_MRKPB_SHPROT,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,431,5,35,9
+    CONTROL         "",IDC_MRKPB_SHPROT_LOCK,"Static",SS_GRAYFRAME | 
+                    SS_NOTIFY | WS_TABSTOP,467,5,9,9
+    CONTROL         "",IDC_MRKPB_SHPCOL,"Static",SS_GRAYRECT | SS_NOTIFY | 
+                    WS_TABSTOP,521,0,35,9,WS_EX_STATICEDGE
+    CONTROL         "",IDC_MRKPB_FILLCOL,"Static",SS_GRAYRECT | SS_NOTIFY | 
+                    WS_TABSTOP,521,10,35,9,WS_EX_STATICEDGE
+    ICON            IDI_MRKCREATE,IDC_PB_TOOL,0,0,20,20
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,25,2,1,18
+    LTEXT           "Style:",IDC_STATIC,28,6,18,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,175,2,1,16
+    LTEXT           "Kernel:",IDC_STATIC,179,6,23,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,291,2,1,16
+    LTEXT           "Shape:",IDC_STATIC,295,6,24,8
+    CONTROL         "",IDC_MRKPB_ICO_SHPX,"Static",SS_GRAYFRAME,355,0,10,9
+    CONTROL         "",IDC_MRKPB_ICO_SHPY,"Static",SS_GRAYFRAME,355,10,10,9
+    CONTROL         "",IDC_MRKPB_SHPX,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,367,0,35,9
+    CONTROL         "",IDC_MRKPB_ICO_SHPROT,"Static",SS_GRAYFRAME,420,5,9,9
+    CONTROL         "",IDC_MRKPB_ICO_SHPCOL,"Static",SS_GRAYFRAME,509,0,10,9
+    CONTROL         "",IDC_MRKPB_ICO_FILLCOL,"Static",SS_GRAYFRAME,509,10,10,
+                    9
+    LTEXT           "Outline",IDC_STATIC,485,1,23,8
+    LTEXT           "Shape",IDC_STATIC,485,10,22,8
+    LTEXT           "",IDOK,575,6,8,8
+    LTEXT           "",IDCANCEL,599,6,8,8
+END
+
+IDD_CAPTURE DIALOGEX 0, 0, 641, 370
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | DS_CONTEXTHELP | 
+    WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "x``"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&Start",IDC_CAPTURE_TOGGLE,7,7,50,14
+    PUSHBUTTON      "C&apture",IDC_CAPTURE_CAPTURE,61,7,50,14
+    PUSHBUTTON      "&Options",IDC_CAPTURE_OPTIONS,7,25,50,14
+    PUSHBUTTON      "&Close",IDCANCEL,61,25,50,14
+    CONTROL         "In the beginning of the file",IDC_CAPTURE_POSTOP,"Button",
+                    BS_AUTORADIOBUTTON,7,105,97,10
+    CONTROL         "At the end of the file",IDC_CAPTURE_POSEND,"Button",
+                    BS_AUTORADIOBUTTON,7,116,79,10
+    CONTROL         "Before the active image",IDC_CAPTURE_POSBEFORE,"Button",
+                    BS_AUTORADIOBUTTON,7,126,91,10
+    CONTROL         "After the active image",IDC_CAPTURE_POSAFTER,"Button",
+                    BS_AUTORADIOBUTTON,7,137,85,10
+    EDITTEXT        IDC_CAPTURE_IMGNAME,7,161,104,12,ES_AUTOHSCROLL
+    CONTROL         "Use automatic naming",IDC_CAPTURE_AUTONAME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,177,86,10
+    EDITTEXT        IDC_CAPTURE_NO,19,197,40,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_CAPTURE_WND,"Static",SS_WHITERECT | SS_SUNKEN,119,
+                    7,515,356
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,155,103,1
+    LTEXT           "Image name ",IDC_STATIC,7,150,42,8
+    LTEXT           "Current no:",IDC_STATIC,19,188,36,8
+    LTEXT           "Mark automatic image number in image name field as '%d'",
+                    IDC_STATIC,19,213,92,25
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,99,103,1
+    LTEXT           "Image position ",IDC_STATIC,7,95,48,8
+    EDITTEXT        IDC_CAPTURE_STEP,63,197,40,12,ES_AUTOHSCROLL
+    LTEXT           "Step:",IDC_STATIC,63,188,18,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,247,102,1
+    LTEXT           "Automate",IDC_STATIC,7,243,31,8
+    EDITTEXT        IDC_CAPTURE_SEQNO,20,268,91,12,ES_AUTOHSCROLL
+    CONTROL         "Capture sequence of images",IDC_CAPTURE_SEQ,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,254,106,10
+    CONTROL         "Under the one name",IDC_CAPTURE_SEQNAME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,285,81,10
+    CONTROL         "Auto Capture (TM)",IDC_CAPTURE_AUTO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,301,74,10
+    LTEXT           "Capture every",IDC_STATIC,19,315,45,8
+    EDITTEXT        IDC_CAPTURE_SEC,66,313,23,12,ES_AUTOHSCROLL
+    LTEXT           "sec",IDC_STATIC,92,315,12,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,332,101,1
+    LTEXT           "Integrate",IDC_STATIC,7,329,29,8
+    CONTROL         "Integrate images",IDC_CAPTURE_INTEGR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,339,68,10
+    EDITTEXT        IDC_CAPTURE_INTERGNO,20,351,91,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_CAPTURE_PRESENTS,7,61,104,67,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,52,103,1
+    LTEXT           "Presets",IDC_STATIC,7,48,24,8
+    CONTROL         "",IDC_CAPTURE_SAVE,"Static",SS_GRAYRECT,7,78,27,9
+    CONTROL         "",IDC_CAPTURE_IMPORT,"Static",SS_GRAYRECT,46,78,27,9
+    CONTROL         "",IDC_CAPTURE_DELETE,"Static",SS_GRAYRECT,84,78,27,9
+END
+
+IDD_PREF_DENSSCALE DIALOG DISCARDABLE  0, 0, 410, 190
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Densitometric Scales"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_DS_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,7,339,89
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,104,338,1
+    LTEXT           "Densitomertic scale parameters ",IDC_STATIC,7,99,101,8
+    LTEXT           " Scale type ",IDC_STATIC,230,99,38,8
+    EDITTEXT        IDC_DS_NAME,75,111,151,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DS_DESCR,75,126,151,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DS_A,75,141,151,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DS_B,75,156,151,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DS_UNITS,75,171,151,12,ES_AUTOHSCROLL
+    CONTROL         "List1",IDC_DS_TYPES,"SysListView32",LVS_SINGLESEL | 
+                    LVS_SHOWSELALWAYS | LVS_NOCOLUMNHEADER | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,232,109,114,74
+    PUSHBUTTON      "&New",IDC_DS_ADD,353,7,50,14
+    PUSHBUTTON      "&Delete",IDC_DS_REMOVE,353,25,50,14
+    PUSHBUTTON      "&Select",IDC_DS_SELECT,353,51,50,14
+    LTEXT           "Scale name",IDC_STATIC,7,113,38,8
+    LTEXT           "Scale description",IDC_STATIC,7,128,55,8
+    LTEXT           "The 'a' coefficient",IDC_STATIC,7,143,57,8
+    LTEXT           "The 'b' coefficient",IDC_STATIC,7,158,57,8
+    LTEXT           "Measurement units",IDC_STATIC,7,173,60,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,352,44,51,1
+END
+
+IDD_PREF_GEOMSCALE DIALOG DISCARDABLE  0, 0, 410, 190
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Geometric Scales"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_GS_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,7,339,89
+    CONTROL         "",-1,"Static",SS_ETCHEDHORZ,7,103,338,1
+    LTEXT           "Scale parameters ",-1,7,99,58,8
+    EDITTEXT        IDC_GS_NAME,75,110,271,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GS_DESCR,75,125,271,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GS_A,75,140,271,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GS_B,75,155,271,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GS_UNITS,75,170,271,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&New",IDC_GS_ADD,353,7,50,14
+    PUSHBUTTON      "&Delete",IDC_GS_REMOVE,353,25,50,14
+    PUSHBUTTON      "&Select",IDC_GS_SELECT,353,51,50,14
+    LTEXT           "Scale name",-1,7,111,38,8
+    LTEXT           "Scale description",-1,7,126,55,8
+    LTEXT           "X-axis coefficient",-1,7,141,54,8
+    LTEXT           "Y-axis coefficient",-1,7,156,54,8
+    LTEXT           "Measurement units",-1,7,171,60,8
+    CONTROL         "",-1,"Static",SS_ETCHEDHORZ,352,44,51,1
+END
+
+IDD_COMBODLG DIALOGEX 0, 0, 182, 158
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_NOPARENTNOTIFY | WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_GRIPPER,IDC_CD_GRIPPER,161,138,20,20
+    CONTROL         "List1",IDC_CD_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_EDITLABELS | 
+                    LVS_NOSORTHEADER | WS_TABSTOP,0,0,170,158,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_CD_MENU,"Static",SS_GRAYFRAME | SS_NOTIFY | 
+                    WS_TABSTOP,173,0,9,9
+    CONTROL         "",IDC_CD_NEW,"Static",SS_GRAYFRAME | SS_NOTIFY | 
+                    WS_TABSTOP,173,14,9,9
+    CONTROL         "",IDC_CD_DELETE,"Static",SS_GRAYFRAME | SS_NOTIFY | 
+                    WS_TABSTOP,173,23,9,9
+    CONTROL         "",IDC_CD_TOP,"Static",SS_GRAYFRAME | SS_NOTIFY | 
+                    WS_TABSTOP,173,36,9,9
+    CONTROL         "",IDC_CD_UP,"Static",SS_GRAYFRAME | SS_NOTIFY | 
+                    WS_TABSTOP,173,45,9,9
+    CONTROL         "",IDC_CD_DOWN,"Static",SS_GRAYFRAME | SS_NOTIFY | 
+                    WS_TABSTOP,173,53,9,9
+    CONTROL         "",IDC_CD_BOTTOM,"Static",SS_GRAYFRAME | SS_NOTIFY | 
+                    WS_TABSTOP,173,62,9,9
+END
+
+IDD_DOC_ADD_SURVEY DIALOGEX 0, 0, 346, 329
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Create survey"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_DAS_NAME,101,7,238,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DAS_DESCR,101,24,238,23,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    COMBOBOX        IDC_DAS_PRESENTS,35,58,214,67,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_DAS_SAVE,"Static",SS_GRAYRECT,252,59,27,9
+    CONTROL         "",IDC_DAS_IMPORT,"Static",SS_GRAYRECT,282,59,27,9
+    CONTROL         "",IDC_DAS_DELETE,"Static",SS_GRAYRECT,312,59,27,9
+    CONTROL         "",IDC_DAS_OBJECT,"ComboBoxEx32",CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP,145,81,194,83
+    CONTROL         "Tree1",IDC_DAS_TREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_SHOWSELALWAYS | TVS_CHECKBOXES | TVS_INFOTIP | 
+                    WS_BORDER | WS_TABSTOP,7,107,129,183
+    CONTROL         "List2",IDC_DAS_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_EDITLABELS | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,145,107,194,
+                    119
+    CONTROL         "",IDC_DAS_UP,"Static",SS_BLACKFRAME | SS_NOTIFY,307,97,
+                    10,10
+    CONTROL         "",IDC_DAS_DOWN,"Static",SS_BLACKFRAME | SS_NOTIFY,317,
+                    97,10,10
+    CONTROL         "",IDC_DAS_REMOVE,"Static",SS_BLACKFRAME | SS_NOTIFY,329,
+                    97,10,10
+    DEFPUSHBUTTON   "Create",IDOK,232,308,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,289,308,50,14
+    CTEXT           "Survey will contain measuring results for:",IDC_STATIC,
+                    7,83,132,10,SS_CENTERIMAGE
+    LTEXT           "Selected survey fields",IDC_STATIC,145,99,70,8
+    LTEXT           "Parameter description",IDC_DAS_DESCRIPT,145,232,194,59,
+                    0,WS_EX_STATICEDGE
+    LTEXT           "Avalible variables list",IDC_STATIC,7,99,66,8
+    LTEXT           "To add parameter to a survey fields list simply check the box near the parameter name",
+                    IDC_STATIC,7,296,129,25
+    LTEXT           "Survey name:",IDC_STATIC,54,9,44,8
+    LTEXT           "Survey description:",IDC_STATIC,37,25,61,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,53,332,1
+    ICON            IDI_ICON_SURVEY,IDC_STATIC,7,7,20,20
+    LTEXT           "Presets:",IDC_STATIC,7,60,26,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,76,332,1
+END
+
+IDD_PREF_SAVE DIALOGEX 0, 0, 410, 190
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Save"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "'My Documents' folder",IDC_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON,13,19,85,10
+    CONTROL         "'My Pictures' folder",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,13,32,75,10
+    CONTROL         "Other location",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,
+                    13,45,60,10
+    GROUPBOX        "Default folder",IDC_STATIC,7,7,396,56
+    GROUPBOX        "Storage data compression",IDC_STATIC,7,69,169,103
+    COMBOBOX        IDC_COMBO1,14,82,155,97,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Compress images",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,25,102,71,10
+    CONTROL         "Compress surveis",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,25,115,71,10
+    CONTROL         "Compress reports",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,25,128,70,10
+    CONTROL         "Compress patches",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,25,141,74,10
+    CONTROL         "Compress full storage",IDC_CHECK6,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,25,154,83,10
+    EDITTEXT        IDC_EDIT1,112,43,272,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO2,112,101,57,97,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO3,112,114,57,97,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO4,112,127,57,97,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO5,112,140,57,97,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO6,112,153,57,97,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,112,17,272,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3,112,30,272,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "...",IDC_BUTTON1,384,42,13,13
+    GROUPBOX        "Autosave and recovery",IDC_STATIC,183,69,220,103
+    CONTROL         "Autosave file every",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,191,82,76,10
+    EDITTEXT        IDC_EDIT4,269,80,26,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "minutes",IDC_STATIC,298,83,25,8
+    CONTROL         "To an original location",IDC_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON,204,96,85,10
+    CONTROL         "To a specified location",IDC_RADIO5,"Button",
+                    BS_AUTORADIOBUTTON,204,109,87,10
+    CONTROL         "Do not overvrite the original file",IDC_CHECK7,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,204,124,113,10
+    CONTROL         "Do not use compression",IDC_CHECK8,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,216,137,92,10
+    CONTROL         "After the program crashes use autosaved copy",
+                    IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,204,152,
+                    163,10
+    EDITTEXT        IDC_EDIT5,291,107,93,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON2,383,107,13,12
+END
+
+IDD_TBP_IMAGE DIALOG DISCARDABLE  0, 0, 650, 20
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_POINTER,IDC_PB_TOOL,0,0,20,20
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,25,2,1,18
+    LTEXT           "Name:",IDC_STATIC,28,6,22,8
+    EDITTEXT        IDC_IMGPB_NAME,51,4,183,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IMGPB_DESCR,329,1,249,18,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | WS_VSCROLL
+    LTEXT           "Description:",IDC_STATIC,289,6,38,8
+    CONTROL         "",IDC_IMGPB_DESCRTEMPL,"Static",SS_GRAYRECT,581,5,40,9
+    LTEXT           "",IDOK,642,7,8,8
+    LTEXT           "",IDCANCEL,642,7,8,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,284,2,1,17
+    CONTROL         "",IDC_IMGPB_NAMETEMPL,"Static",SS_GRAYRECT,239,6,40,9
+END
+
+IDD_FN_3IMG DIALOGEX 0, 0, 470, 244
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_3IFN_PREVIEW,"Static",SS_BLACKFRAME,7,7,16,15
+    CONTROL         "",IDC_3IFN_AUTO,"Static",SS_BLACKFRAME,23,10,11,10
+    CONTROL         "",IDC_3IFN_HAND,"Static",SS_BLACKFRAME,45,7,16,15
+    CONTROL         "",IDC_3IFN_ZOOM,"Static",SS_BLACKFRAME,61,7,16,15
+    CONTROL         "",IDC_3IFN_ZOOM1,"Static",SS_BLACKFRAME,83,7,16,15
+    CONTROL         "",IDC_3IFN_ZOOMFIT,"Static",SS_BLACKFRAME,99,7,16,15
+    CONTROL         "",IDC_3IFN_TOGGLE,"Static",SS_BLACKFRAME,141,7,16,15
+    DEFPUSHBUTTON   "OK",IDOK,248,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,303,7,50,14
+    PUSHBUTTON      "Apply",IDC_3IFN_APPLY,358,7,50,14
+    PUSHBUTTON      "Reset",IDC_3IFN_RESET,413,7,50,14
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT | WS_TABSTOP,7,24,150,
+                    125,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT | WS_TABSTOP,160,24,
+                    150,125,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT | WS_TABSTOP,313,24,
+                    150,125,WS_EX_STATICEDGE
+    COMBOBOX        IDC_3IFN_1TYPE,7,154,48,244,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_3IFN_1SRC,"Static",SS_BLACKFRAME,57,152,99,14
+    COMBOBOX        IDC_3IFN_2TYPE,160,154,48,244,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_3IFN_2SRC,"Static",SS_BLACKFRAME,210,152,99,14
+    COMBOBOX        IDC_3IFN_3TYPE,313,154,48,244,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_3IFN_3SRC,"Static",SS_BLACKFRAME,364,152,99,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,175,456,1
+    LTEXT           "Parameters  ",IDC_STATIC,7,171,40,8
+END
+
+IDD_FILTER DIALOGEX 0, 0, 790, 454
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Image Processing Functions – The DIAS Kernel Service Provider"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_FLT_IMG1WHO,7,7,193,114,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FLT_IMG1WHO2,202,7,192,114,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_FLT_IMG1,"Static",SS_WHITERECT,7,23,386,256,
+                    WS_EX_STATICEDGE
+    COMBOBOX        IDC_FLT_IMG1WHO3,396,7,193,114,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FLT_IMG1WHO4,591,7,192,114,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_FLT_IMG2,"Static",SS_WHITERECT,397,23,386,256,
+                    WS_EX_STATICEDGE
+    CONTROL         "Tree1",IDC_FLT_FUNCTIONS,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_SHOWSELALWAYS | TVS_TRACKSELECT | TVS_SINGLEEXPAND | 
+                    TVS_INFOTIP | TVS_FULLROWSELECT | TVS_NONEVENHEIGHT | 
+                    WS_BORDER | WS_TABSTOP,7,282,191,164
+    CONTROL         "List1",IDC_FLT_PARAM,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,203,282,261,
+                    164
+    CONTROL         "List1",IDC_FLT_HISTORY,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOCOLUMNHEADER | 
+                    WS_BORDER | WS_TABSTOP,468,282,231,164
+    DEFPUSHBUTTON   "Apply",IDC_FLT_APPLY,703,399,80,14
+    PUSHBUTTON      "OK and close",IDOK,703,416,80,14
+    PUSHBUTTON      "Cancel and close",IDCANCEL,703,433,80,14
+END
+
+IDD_TBP_MRKSELECT DIALOGEX 0, 0, 650, 20
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_MRKPB_STYLE,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,49,1,56,17
+    PUSHBUTTON      "Select style",IDC_MRKPB_SELECT,107,4,46,12,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_MRKPB_KERNEL,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,183,1,30,17
+    CONTROL         "",IDC_MRKPB_ICO_KRNLSIZE,"Static",SS_GRAYFRAME,220,0,10,
+                    9
+    CONTROL         "",IDC_MRKPB_ICO_KRNLCOL,"Static",SS_GRAYFRAME,220,10,10,
+                    9
+    CONTROL         "",IDC_MRKPB_KRNLSIZE,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,231,0,35,9
+    CONTROL         "",IDC_MRKPB_KRNLCOLOR,"Static",SS_GRAYRECT | SS_NOTIFY | 
+                    WS_TABSTOP,231,10,35,9,WS_EX_STATICEDGE
+    CONTROL         "",IDC_MRKPB_SHAPE,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,299,1,30,17
+    CONTROL         "",IDC_MRKPB_SHPY,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,347,10,35,9
+    CONTROL         "",IDC_MRKPB_SIZE_LOCK,"Static",SS_GRAYFRAME | SS_NOTIFY | 
+                    WS_TABSTOP,383,5,10,9
+    CONTROL         "",IDC_MRKPB_SHPROT,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,411,5,35,9
+    CONTROL         "",IDC_MRKPB_SHPROT_LOCK,"Static",SS_GRAYFRAME | 
+                    SS_NOTIFY | WS_TABSTOP,447,5,10,9
+    CONTROL         "",IDC_MRKPB_SHPCOL,"Static",SS_GRAYRECT | SS_NOTIFY | 
+                    WS_TABSTOP,500,0,35,9,WS_EX_STATICEDGE
+    CONTROL         "",IDC_MRKPB_FILLCOL,"Static",SS_GRAYRECT | SS_NOTIFY | 
+                    WS_TABSTOP,500,10,35,9,WS_EX_STATICEDGE
+    PUSHBUTTON      "Hide",IDC_MRKPB_HIDE,545,0,36,11,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Show All",IDC_MRKPB_SHOW,545,9,36,11,0,WS_EX_STATICEDGE
+    ICON            IDI_MRKCREATE,IDC_PB_TOOL,0,0,20,20
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,25,2,1,18
+    LTEXT           "Style:",IDC_STATIC,28,6,18,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,155,2,1,18
+    LTEXT           "Kernel:",IDC_STATIC,159,6,23,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,270,2,1,18
+    LTEXT           "Shape:",IDC_STATIC,274,6,24,8
+    CONTROL         "",IDC_MRKPB_ICO_SHPX,"Static",SS_GRAYFRAME,335,0,10,9
+    CONTROL         "",IDC_MRKPB_ICO_SHPY,"Static",SS_GRAYFRAME,335,10,10,9
+    CONTROL         "",IDC_MRKPB_SHPX,"Static",SS_WHITERECT | SS_NOTIFY | 
+                    SS_SUNKEN | WS_TABSTOP,347,0,35,9
+    CONTROL         "",IDC_MRKPB_ICO_SHPROT,"Static",SS_GRAYFRAME,399,5,10,9
+    CONTROL         "",IDC_MRKPB_ICO_SHPCOL,"Static",SS_GRAYFRAME,488,0,10,9
+    CONTROL         "",IDC_MRKPB_ICO_FILLCOL,"Static",SS_GRAYFRAME,488,10,10,
+                    9
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,585,2,1,18
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,540,2,1,18
+    LTEXT           "Outline",IDC_STATIC,464,1,23,8
+    LTEXT           "Shape",IDC_STATIC,465,10,22,8
+END
+
+IDD_TITLES DIALOG DISCARDABLE  0, 0, 242, 102
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Title and description"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TITLES_TITLE,7,17,228,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TITLES_DESCR,7,42,228,29,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,124,81,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,185,81,50,14
+    LTEXT           "Title:",IDC_STATIC,7,7,116,8
+    LTEXT           "Description or comments:",IDC_STATIC,7,32,116,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DOC_ADD_IMAGES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 221
+    END
+
+    IDD_DOC_NEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        VERTGUIDE, 98
+        VERTGUIDE, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 319
+    END
+
+    IDD_COUNT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_START, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_DOC_ADD_IMPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        VERTGUIDE, 68
+        VERTGUIDE, 95
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+        HORZGUIDE, 52
+        HORZGUIDE, 64
+        HORZGUIDE, 75
+    END
+
+    IDD_CAPTURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 634
+        VERTGUIDE, 111
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 363
+        HORZGUIDE, 87
+    END
+
+    IDD_PREF_DENSSCALE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 403
+        VERTGUIDE, 75
+        VERTGUIDE, 346
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+
+    IDD_PREF_GEOMSCALE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 403
+        VERTGUIDE, 75
+        VERTGUIDE, 346
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+
+    IDD_DOC_ADD_SURVEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 339
+        VERTGUIDE, 136
+        VERTGUIDE, 145
+        VERTGUIDE, 339
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 322
+    END
+
+    IDD_PREF_SAVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 403
+        VERTGUIDE, 112
+        VERTGUIDE, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+
+    IDD_FN_3IMG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 463
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 237
+        HORZGUIDE, 22
+        HORZGUIDE, 149
+        HORZGUIDE, 166
+    END
+
+    IDD_FILTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 783
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 447
+    END
+
+    IDD_TITLES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Dias.ico"
+IDR_DISTYPE             ICON    DISCARDABLE     "res\\StorageDoc.ico"
+IDI_WS_MARKER_CENTER    ICON    DISCARDABLE     "res\\ws_marker_center.ico"
+IDI_WS_MARKER_ZOOM      ICON    DISCARDABLE     "res\\ws_marker_zoom.ico"
+IDI_MRKCREATE           ICON    DISCARDABLE     "res\\mrkcreat.ico"
+IDI_PIC_SIZE            ICON    DISCARDABLE     "res\\pic_size.ico"
+IDI_CONTEXTHELP         ICON    DISCARDABLE     "res\\question.ico"
+IDI_PIC_OFFX            ICON    DISCARDABLE     "res\\pic_offx.ico"
+IDI_PIC_OFFY            ICON    DISCARDABLE     "res\\pic_offy.ico"
+IDI_PIC_FILL            ICON    DISCARDABLE     "res\\pic_fill.ico"
+IDI_PIC_SIZEX           ICON    DISCARDABLE     "res\\pic_sizex.ico"
+IDI_PIC_SIZEY           ICON    DISCARDABLE     "res\\pic_sizey.ico"
+IDI_PIC_ROTATE          ICON    DISCARDABLE     "res\\pic_rota.ico"
+IDI_PIC_LOCKED          ICON    DISCARDABLE     "res\\pic_lock.ico"
+IDI_PIC_UNLOCKED        ICON    DISCARDABLE     "res\\pic_unlo.ico"
+IDI_MRK_CENTER          ICON    DISCARDABLE     "res\\mrk_cent.ico"
+IDI_PIC_RIGTHARROW      ICON    DISCARDABLE     "res\\pic_rigt.ico"
+IDI_PIC_DOWNARROW       ICON    DISCARDABLE     "res\\pic_downarr.ico"
+IDI_INDICATOR_GEOMSCALE ICON    DISCARDABLE     "res\\geomscale.ico"
+IDI_INDICATOR_DENSSCALE ICON    DISCARDABLE     "res\\densscale.ico"
+IDI_GRIPPER             ICON    DISCARDABLE     "res\\gripper.ico"
+IDI_BUTTON              ICON    DISCARDABLE     "res\\button.ico"
+IDI_PIC_UP              ICON    DISCARDABLE     "res\\pic_up.ico"
+IDI_PIC_DOWN            ICON    DISCARDABLE     "res\\pic_down.ico"
+IDI_PIC_REMOVE          ICON    DISCARDABLE     "res\\pic_remo.ico"
+IDI_PIC_PREVIEW         ICON    DISCARDABLE     "res\\pic_prev.ico"
+IDI_PIC_HAND            ICON    DISCARDABLE     "res\\pic_hand.ico"
+IDI_PIC_ZOOM            ICON    DISCARDABLE     "res\\pic_zoom.ico"
+IDI_PIC_ZOOM1           ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_PIC_ZOOMFIT         ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_PIC_TOGGLE          ICON    DISCARDABLE     "res\\pic_togg.ico"
+IDI_INDICATOR_IMGICO    ICON    DISCARDABLE     "res\\indicato.ico"
+IDI_INDICATOR_CNLICO    ICON    DISCARDABLE     "res\\ico00003.ico"
+IDI_INDICATOR_PTCICO    ICON    DISCARDABLE     "res\\ico00004.ico"
+IDI_INDICATOR_MRKICO    ICON    DISCARDABLE     "res\\ico00005.ico"
+IDI_INDICATOR_PRG_STOP  ICON    DISCARDABLE     "res\\ico00006.ico"
+IDI_INDICATOR_PRG_PAUSE ICON    DISCARDABLE     "res\\ico00007.ico"
+IDI_INDICATOR_PRG_START ICON    DISCARDABLE     "res\\ico00008.ico"
+IDI_INDICATOR_SAVE      ICON    DISCARDABLE     "res\\ico00009.ico"
+IDI_INDICATOR_OPEN      ICON    DISCARDABLE     "res\\ico00010.ico"
+IDI_INDICATOR_IMPORT    ICON    DISCARDABLE     "res\\ico00011.ico"
+IDI_INDICATOR_EXPORT    ICON    DISCARDABLE     "res\\ico00012.ico"
+IDI_ICON_IMAGES         ICON    DISCARDABLE     "res\\icon_ima.ico"
+IDI_ICON_SURVEY         ICON    DISCARDABLE     "res\\icon_sur.ico"
+IDI_POINTER             ICON    DISCARDABLE     "res\\pointer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_REBAR               BITMAP  DISCARDABLE     "res\\rebar.bmp"
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_TBX_DOC_N           BITMAP  DISCARDABLE     "res\\tbx_doc_n.bmp"
+IDR_TBX_DOC_IMG         BITMAP  DISCARDABLE     "res\\tbx_doc_img.bmp"
+IDB_IL_DOCTYPES         BITMAP  DISCARDABLE     "res\\doctypes.bmp"
+IDR_TBX_IMAGES          BITMAP  DISCARDABLE     "res\\tbx_images.bmp"
+IDB_TBX_STD_H           BITMAP  DISCARDABLE     "res\\tbx_std_h.bmp"
+IDB_TBX_STD_N           BITMAP  DISCARDABLE     "res\\tbx_std_n.bmp"
+IDB_TBX_STD_D           BITMAP  DISCARDABLE     "res\\tbx_std_d.bmp"
+IDR_TBP_MARKERS         BITMAP  DISCARDABLE     "res\\tbp_mark.bmp"
+IDR_TBP_IMAGE           BITMAP  DISCARDABLE     "res\\tbp_image.bmp"
+IDB_TBP_IMAGE_H         BITMAP  DISCARDABLE     "res\\tbp_image_h.bmp"
+IDB_MARKER_KRNLSTYLE_NONE BITMAP  DISCARDABLE     "res\\mrkkrnl_none.bmp"
+IDB_MARKER_KRNLSTYLE_ROUND BITMAP  DISCARDABLE     "res\\mrkkrnl_round.bmp"
+IDB_MARKER_KRNLSTYLE_X  BITMAP  DISCARDABLE     "res\\mrkkrnl_x.bmp"
+IDB_MARKER_KRNLSTYLE_CROSS BITMAP  DISCARDABLE     "res\\mrkkrnl_cross.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\DIAS Full Logo.bmp"
+IDB_IL_COLORMODELS      BITMAP  DISCARDABLE     "res\\colormodels.bmp"
+IDR_TBX_SURVEIS         BITMAP  DISCARDABLE     "res\\tbx_s.bmp"
+IDR_TBX_DOC_SRV         BITMAP  DISCARDABLE     "res\\tbx_doc_srv.bmp"
+IDR_TBX_DOC_REP         BITMAP  DISCARDABLE     "res\\tbx_doc_rep.bmp"
+IDB_DENSSCALES          BITMAP  DISCARDABLE     "res\\densscal.bmp"
+IDB_DENSTYPES           BITMAP  DISCARDABLE     "res\\denstype.bmp"
+IDB_GEOMSCALES          BITMAP  DISCARDABLE     "res\\geomscal.bmp"
+IDB_MARKER_SHPSTYLE_NONE BITMAP  DISCARDABLE     "res\\mrkshp_none.bmp"
+IDB_MARKER_SHPSTYLE_ELLIPSE BITMAP  DISCARDABLE     "res\\mrkshp_ellips.bmp"
+IDB_MARKER_SHPSTYLE_TRIANGLE BITMAP  DISCARDABLE     "res\\mrkshp_tri.bmp"
+IDB_MARKER_SHPSTYLE_RECTANGLE BITMAP  DISCARDABLE     "res\\mrkshp_rect.bmp"
+IDB_IL_OBJECTS          BITMAP  DISCARDABLE     "res\\il_objec.bmp"
+IDB_IL_FIELDTYPES       BITMAP  DISCARDABLE     "res\\il_field.bmp"
+IDB_TBX_IMG_N           BITMAP  DISCARDABLE     "res\\tbx_img_n.bmp"
+IDB_TBX_IMG_H           BITMAP  DISCARDABLE     "res\\tbx_img_h.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Toolbo&x",                    ID_VIEW_TOOLBOX
+        POPUP "&Toolbars"
+        BEGIN
+            MENUITEM "&Standart",                   ID_VIEW_TOOLBAR_STD
+            MENUITEM "&Edit",                       ID_VIEW_TOOLBAR_EDIT
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Tools"
+    BEGIN
+        POPUP "&Plug-Ins"
+        BEGIN
+            MENUITEM "None",                        0, GRAYED
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Macro...\tCtrl+M",           ID_TOOLS_MACRO
+        MENUITEM SEPARATOR
+        MENUITEM "&Options...\tCtrl+O",         ID_TOOLS_PREFERENCES
+        MENUITEM "&Import Preferences...",      ID_TOOLS_IMPORTPREFS
+        MENUITEM "&Export Preferences...",      ID_TOOLS_EXPORTPREFS
+        MENUITEM SEPARATOR
+        MENUITEM "&Geometric Scales...",        ID_EDIT_GEOMSCALES
+        MENUITEM "&Densitometric Scales...",    ID_EDIT_DENSSCALES
+        MENUITEM SEPARATOR
+        MENUITEM "C&ustomize...",               ID_EDIT_CUSTOMIZE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents\tF1",               ID_HELP_FINDER
+        MENUITEM "&aIm Helper\tShift+F1",       ID_HELP_HELPER
+        MENUITEM SEPARATOR
+        MENUITEM "&About Dias...",              ID_APP_ABOUT
+        POPUP "About Plug-in"
+        BEGIN
+            MENUITEM "Plug-ins List",               ID_HELP_PLUGIN_LIST
+            , GRAYED
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Feedback...",                 ID_HELP_FEEDBACK
+    END
+END
+
+IDR_DISTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Close\tCtrl+W",              ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...\tShift+Ctrl+S",   ID_FILE_SAVE_AS
+        MENUITEM "Save For &Web...\tAlt+Shift+Ctrl+S", ID_FILE_SAVEWEB
+        MENUITEM SEPARATOR
+        MENUITEM "I&mport...\tCtrl+I",          ID_FILE_IMPORT
+        MENUITEM "Expo&rt...\tCtrl+E",          ID_FILE_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view\tAlt+Shift+Ctrl+P", ID_FILE_PRINT_PREVIEW
+        MENUITEM "Pa&ge Setup...\tShift+Ctrl+P", ID_FILE_PAGE_SETUP
+        MENUITEM "Pri&nt Setup...\tAlt+Ctrl+P", ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "File &Info...",               ID_FILE_INFO
+        MENUITEM SEPARATOR
+        POPUP "&Jump To"
+        BEGIN
+            MENUITEM "aIm Suite Stanum",            ID_FILE_JUMP_STANUM
+            MENUITEM "aIm Suite Liga",              ID_FILE_JUMP_LIGA
+            MENUITEM "aIm Suite Spider",            ID_FILE_JUMP_SPIDER
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM "&Redo\tShift+Ctrl+Z",         ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "&Duplicate\tCtrl+D",          ID_EDIT_DUPLICATE
+        MENUITEM "&Clear\tDel",                 ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "Re&name\tF2",                 ID_EDIT_RENAME
+        MENUITEM SEPARATOR
+        MENUITEM "&Select All\tCtrl+A",         ID_EDIT_SELECT
+        MENUITEM "D&elete Selection\tCtrl+R",   ID_EDIT_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "&Find...\tF4",                ID_EDIT_FIND
+        MENUITEM "Rep&lace...\tCtrl+F4",        ID_EDIT_REPLACE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Images",                     ID_VIEW_IMAGES
+        MENUITEM "&Surveis",                    ID_VIEW_DATA
+        MENUITEM "&Reports",                    ID_VIEW_REPORTS
+        MENUITEM SEPARATOR
+        MENUITEM "&Big icons",                  ID_EDIT_BIG
+        MENUITEM "S&mall icons",                ID_EDIT_SMALL
+        MENUITEM SEPARATOR
+        MENUITEM "&List area",                  ID_VIEW_LIST
+        MENUITEM "&Client area",                ID_VIEW_CLIENT
+        MENUITEM SEPARATOR
+        MENUITEM "Zoom I&n\tCtrl+'+'",          ID_VIEW_ZOOMIN
+        MENUITEM "Zoom &Out\tCtrl+'-'",         ID_VIEW_ZOOMOUT
+        POPUP "&Zoom"
+        BEGIN
+            MENUITEM "&Fit All",                    ID_VIEW_ZOOM_FIT
+            MENUITEM "&1:1 (100%)",                 ID_VIEW_ZOOM_1TO1
+            MENUITEM SEPARATOR
+            MENUITEM "25%",                         ID_VIEW_ZOOM_25
+            MENUITEM "33%",                         ID_VIEW_ZOOM_33
+            MENUITEM "50%",                         ID_VIEW_ZOOM_50
+            MENUITEM "66%",                         ID_VIEW_ZOOM_66
+            MENUITEM "75%",                         ID_VIEW_ZOOM_75
+            MENUITEM SEPARATOR
+            MENUITEM "125%",                        ID_VIEW_ZOOM_125
+            MENUITEM "150%",                        ID_VIEW_ZOOM_150
+            MENUITEM "200%",                        ID_VIEW_ZOOM_200
+            MENUITEM "250%",                        ID_VIEW_ZOOM_250
+            MENUITEM "300%",                        ID_VIEW_ZOOM_300
+            MENUITEM "400%",                        ID_VIEW_ZOOM_400
+            MENUITEM "500%",                        ID_VIEW_ZOOM_500
+            MENUITEM "750%",                        ID_VIEW_ZOOM_750
+            MENUITEM "1000%",                       ID_VIEW_ZOOM_1000
+            MENUITEM SEPARATOR
+            MENUITEM "Other...",                    ID_VIEW_ZOOM_OTHER
+        END
+        MENUITEM "&Full Screen\tF9",            ID_VIEW_FULLSCREEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide\tCtrl+H",               ID_VIEW_HIDE
+        MENUITEM "Sho&w All",                   ID_VIEW_SHOWALL
+        MENUITEM SEPARATOR
+        POPUP "Ima&ge Components"
+        BEGIN
+            MENUITEM "Scale\tCtrl+0",               ID_VIEW_SCALE
+            MENUITEM "Image\tCtrl+1",               ID_VIEW_IMAGE
+            MENUITEM "Patches\tCtrl+2",             ID_VIEW_PATCHES
+            MENUITEM "Marks\tCtrl+3",               ID_VIEW_MARKS
+            MENUITEM "Notes\tCtrl+4",               ID_VIEW_TEXTS
+            MENUITEM "Metrics\tCtrl+5",             ID_VIEW_METRICS
+        END
+        POPUP "Surve&y Components"
+        BEGIN
+            MENUITEM "Headers\tCtrl+0",             ID_VIEW_HEADERS
+        END
+        POPUP "R&eport Components"
+        BEGIN
+            MENUITEM "Scale\tCtrl+0",               ID_VIEW_SCALE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Toolbo&x",                    ID_VIEW_TOOLBOX
+        POPUP "&Toolbars"
+        BEGIN
+            MENUITEM "&Standart",                   ID_VIEW_TOOLBAR_STD
+            MENUITEM "&Edit",                       ID_VIEW_TOOLBAR_EDIT
+        END
+        MENUITEM "&Properties Bar",             ID_VIEW_PROPBAR
+        MENUITEM "St&atus Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Image"
+    BEGIN
+        MENUITEM "&Add...",                     ID_IMAGE_ADDSEQ
+        POPUP "Ac&quire"
+        BEGIN
+            MENUITEM "&Select Camera...",           ID_FILE_ACQUIRE_SELECTCAMERA
+
+            MENUITEM "From &Camera...",             ID_IMAGE_ACQUIRE_CAMERA
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Resample...",                ID_IMAGE_RESAMPLE
+        POPUP "Color &Model"
+        BEGIN
+            MENUITEM "&Dualcolor",                  ID_IMAGE_MODEL_BW
+            MENUITEM "&Monochrome",                 ID_IMAGE_MODEL_GREYSCALE
+            MENUITEM "&RGB",                        ID_IMAGE_MODEL_RGB
+            MENUITEM "&CMY",                        ID_IMAGE_MODEL_CMY
+            MENUITEM "CMY&K",                       ID_IMAGE_MODEL_CMYK
+            MENUITEM "&Lab",                        ID_IMAGE_MODEL_LAB
+            MENUITEM "M&ultychannel",               ID_IMAGE_MODEL_MULTY
+        END
+        POPUP "&Bits Per Pixel"
+        BEGIN
+            MENUITEM "&1",                          ID_IMAGE_BPP_1
+            MENUITEM "&4",                          ID_IMAGE_BPP_4
+            MENUITEM "&8",                          ID_IMAGE_BPP_8
+            MENUITEM "1&6",                         ID_IMAGE_BPP_16
+            MENUITEM "&32",                         ID_IMAGE_BPP_32
+            MENUITEM "&Other...",                   ID_IMAGE_BPP_OTHER
+        END
+        POPUP "R&otate"
+        BEGIN
+            MENUITEM "180°",                        ID_IMAGE_ROTATE_180
+            MENUITEM "90° Cl&ockwise",              ID_IMAGE_ROTATE_90CW
+            MENUITEM "90° Co&nterclockwise",        ID_IMAGE_ROTATE_90CCW
+            MENUITEM "&Arbitrary...",               ID_IMAGE_ROTATE_ARBITRARY
+
+            MENUITEM SEPARATOR
+            MENUITEM "Flip &Vertical",              ID_IMAGE_ROTATE_FLIPVERT
+            MENUITEM "Flip &Horizontal",            ID_IMAGE_ROTATE_FLIPHORZ
+        END
+        MENUITEM "&Crop...",                    ID_IMAGE_CROP
+        MENUITEM SEPARATOR
+        POPUP "Ad&just"
+        BEGIN
+            MENUITEM "&Normalize...",               ID_IMAGE_ADJUST_NORMALIZE
+
+            MENUITEM "&Linearize...",               ID_IMAGE_ADJUST_LINEARIZE
+
+            MENUITEM "Linear &scaling...",          ID_IMAGE_ADJUST_LINSCALE
+            MENUITEM "N&onlinear scaling...",       ID_IMAGE_ADJUST_SCALE
+        END
+        POPUP "&Statistics"
+        BEGIN
+            MENUITEM "&View statistics...",         ID_IMAGE_STAT_INFO
+            MENUITEM "Show &histogram...",          ID_IMAGE_STAT_HIST
+            MENUITEM SEPARATOR
+            MENUITEM "Mi&nimum...",                 ID_IMAGE_STAT_MIN
+            MENUITEM "Ma&ximum...",                 ID_IMAGE_STAT_MAX
+            MENUITEM "&Average...",                 ID_IMAGE_STAT_AVG
+        END
+        POPUP "Ari&thmetics"
+        BEGIN
+            MENUITEM "&Add...",                     ID_IMAGE_ARITHM_ADD
+            MENUITEM "&Subtract...",                ID_IMAGE_ARITHM_SUB
+            MENUITEM "&Multiply...",                ID_IMAGE_ARITHM_MUL
+            MENUITEM "&Combine...",                 ID_IMAGE_ARITM_CMB
+            MENUITEM "&Divide...",                  ID_IMAGE_ARITHM_DIV
+            MENUITEM "M&odule Division...",         ID_IMAGE_ARITHM_MOD
+        END
+        POPUP "B&oolean"
+        BEGIN
+            MENUITEM "&Or...",                      ID_IMAGE_BOOL_OR
+            MENUITEM "&And...",                     ID_IMAGE_BOOL_AND
+            MENUITEM "E&xclusive Or...",            ID_IMAGE_BOOL_XOR
+            MENUITEM "&Not (Invert)...",            ID_IMAGE_BOOL_NOT
+        END
+        POPUP "Se&gments"
+        BEGIN
+            MENUITEM "Segment...",                  ID_IMAGE_SEG_SEGMENT
+            MENUITEM "Posterize...",                ID_IMAGE_SEG_MULTISEG
+            MENUITEM SEPARATOR
+            MENUITEM "Erode...",                    ID_IMAGE_SEG_ERODE
+            MENUITEM "Dilate...",                   ID_IMAGE_SEG_DILATE
+            MENUITEM "Open...",                     ID_IMAGE_SEG_OPEN
+            MENUITEM "Close...",                    ID_IMAGE_SEG_CLOSE
+            MENUITEM "Filter...",                   ID_IMAGE_SEG_FILTER
+            MENUITEM SEPARATOR
+            MENUITEM "Fill Holes...",               ID_IMAGE_SEG_FILLHOLES
+            MENUITEM "Extract Holes...",            ID_IMAGE_SEG_EXTRHOLES
+            MENUITEM "Extract Contours...",         ID_IMAGE_SEG_EXTRCONT
+            MENUITEM SEPARATOR
+            MENUITEM "Segregate...",                ID_IMAGE_SEG_SEGREGATE
+            MENUITEM "Segregate In Mark...",        ID_IMAGE_SEG_SEGINFRAME
+            MENUITEM SEPARATOR
+            MENUITEM "From Patches...",             ID_IMAGE_SEG_FROMPATCH
+            MENUITEM "From Marks...",               ID_IMAGE_SEG_FROMMARKS
+            MENUITEM SEPARATOR
+            MENUITEM "Create &Patches...",          ID_IMAGE_SEG_GENPATCH
+        END
+        POPUP "&Filters"
+        BEGIN
+            MENUITEM "EMPRY",                       6
+        END
+        POPUP "Smoot&hing"
+        BEGIN
+            MENUITEM "Lowpass...",                  ID_IMAGE_SMOOTH_LOWPAS
+            MENUITEM "Sigma...",                    ID_IMAGE_SMOOTH_SIGMA
+            MENUITEM SEPARATOR
+            MENUITEM "Gaussian...",                 ID_IMAGE_SMOOTH_GAUSSIAN
+        END
+        POPUP "Shar&pering"
+        BEGIN
+            MENUITEM "EMPRY",                       9
+        END
+        POPUP "E&dges"
+        BEGIN
+            MENUITEM "Laplacian...",                ID_IMAGE_EDGES_LAPLACIAN
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Import...",                  ID_IMAGE_IMPORT
+        MENUITEM "E&xport...",                  ID_IMAGE_EXPORT
+        POPUP "Pixelwise", MENUBARBREAK
+        BEGIN
+            MENUITEM "AND",                         ID_IMG_DIAS_PXW_AND
+            MENUITEM "OR",                          ID_IMG_DIAS_PXW_OR
+            MENUITEM "XOR",                         ID_IMG_DIAS_PXW_XOR
+            MENUITEM "NOT",                         ID_IMG_DIAS_PXW_NOt
+            MENUITEM SEPARATOR
+            MENUITEM "ADD",                         ID_IMG_DIAS_PXW_ADD
+            MENUITEM "SUB",                         ID_IMG_DIAS_PXW_SUB
+            MENUITEM "MUL",                         ID_IMG_DIAS_PXW_MUL
+            MENUITEM "DIV",                         ID_IMG_DIAS_PXW_DIV
+            MENUITEM "POW",                         ID_IMG_DIAS_PXW_POW
+            MENUITEM "ROOT",                        ID_IMG_DIAS_PXW_ROOT
+            MENUITEM SEPARATOR
+            MENUITEM "MIN",                         ID_IMG_DIAS_PXW_MIN
+            MENUITEM "MAX",                         ID_IMG_DIAS_PXW_MAX
+            MENUITEM "MED",                         ID_IMG_DIAS_PXW_MED
+            MENUITEM "AVG",                         ID_IMG_DIAS_PXW_AVG
+            MENUITEM "STD",                         ID_IMG_DIAS_PXW_STD
+            MENUITEM SEPARATOR
+            MENUITEM "SDS",                         ID_IMG_DIAS_PXW_SDS
+            MENUITEM "MDS",                         ID_IMG_DIAS_PXW_MDS
+            MENUITEM "EDS",                         ID_IMG_DIAS_PXW_EDS
+            MENUITEM SEPARATOR
+            MENUITEM "THR",                         ID_IMG_DIAS_PXW_THR
+        END
+        POPUP "Matrix"
+        BEGIN
+            MENUITEM "LOGIC",                       ID_IMG_DIAS_MTX_LOGIC
+            MENUITEM SEPARATOR
+            MENUITEM "SUM",                         ID_IMG_DIAS_MTX_SUM
+            MENUITEM "PRD",                         ID_IMG_DIAS_MTX_PRD
+            MENUITEM "MIN",                         ID_IMG_DIAS_MTX_MIN
+            MENUITEM "MAX",                         ID_IMG_DIAS_MTX_MAX
+            MENUITEM "AVG",                         ID_IMG_DIAS_MTX_AVG
+            MENUITEM "MED",                         ID_IMG_DIAS_MTX_MED
+            MENUITEM "STD",                         ID_IMG_DIAS_MTX_STD
+            MENUITEM SEPARATOR
+            MENUITEM "AND",                         ID_IMG_DIAS_MTX_AND
+            MENUITEM "OR",                          ID_IMG_DIAS_MTX_OR
+            MENUITEM "XOR",                         ID_IMG_DIAS_MTX_XOR
+            MENUITEM SEPARATOR
+            MENUITEM "GRAD",                        ID_IMG_DIAS_MTX_GRAD
+            MENUITEM "DIV",                         ID_IMG_DIAS_MTX_DIV
+            MENUITEM "ROT",                         ID_IMG_DIAS_MTX_ROT
+            MENUITEM "LAPL",                        ID_IMG_DIAS_MTX_LAPL
+            MENUITEM SEPARATOR
+            MENUITEM "FILTR",                       ID_IMG_DIAS_MTX_FILTR
+        END
+        POPUP "Tracing"
+        BEGIN
+            MENUITEM "HOLES",                       ID_IMG_DIAS_TRC_HOLES
+            MENUITEM "SCRAP",                       ID_IMG_DIAS_TRC_SCRAP
+            MENUITEM "MARK",                        ID_IMG_DIAS_TRC_MARK
+            MENUITEM "MASK",                        ID_IMG_DIAS_TRC_MASK
+            MENUITEM "LINK",                        ID_IMG_DIAS_TRC_LINK
+            MENUITEM "WINDOW",                      ID_IMG_DIAS_TRC_WINDOW
+            MENUITEM "INDENT",                      ID_IMG_DIAS_TRC_IDENT
+        END
+        POPUP "Image"
+        BEGIN
+            MENUITEM "RESAMPL",                     ID_IMG_DIAS_IMG_RESAMPL
+            MENUITEM "SCALE",                       ID_IMG_DIAS_IMG_SCALE
+            MENUITEM "NORM",                        ID_IMG_DIAS_IMG_NORM
+            MENUITEM "LIN",                         ID_IMG_DIAS_IMG_LIN
+            MENUITEM "PRODUCT",                     ID_IMG_DIAS_IMG_PRODUCT
+        END
+    END
+    POPUP "&Survey"
+    BEGIN
+        MENUITEM "&Add...",                     ID_SURVEY_ADD
+        MENUITEM SEPARATOR
+        MENUITEM "Select &fields...",           ID_SURVEY_FIELDS
+        MENUITEM "&Measure...",                 ID_SURVEY_MEASURE
+        MENUITEM SEPARATOR
+        MENUITEM "Import...",                   ID_SURVEY_IMPORT
+        MENUITEM "Export...",                   ID_SURVEY_EXPORT
+    END
+    POPUP "&Tools"
+    BEGIN
+        POPUP "&Plug-Ins"
+        BEGIN
+            MENUITEM "Remove Noise - HTALAM AVP IHC", ID_TOOLS_PLUGINS_1
+            MENUITEM "Remove Noise - THYM INOS IHC", ID_TOOLS_PLUGINS_2
+            MENUITEM "Remove Noise - ISLT INS+HEMATOX", ID_TOOLS_PLUGINS_3
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Macro...\tCtrl+M",           ID_TOOLS_MACRO
+        MENUITEM SEPARATOR
+        MENUITEM "&Options...\tCtrl+O",         ID_TOOLS_PREFERENCES
+        MENUITEM "&Import Preferences...",      ID_TOOLS_IMPORTPREFS
+        MENUITEM "&Export Preferences...",      ID_TOOLS_EXPORTPREFS
+        MENUITEM SEPARATOR
+        MENUITEM "&Geometric Scales...",        ID_EDIT_GEOMSCALES
+        MENUITEM "&Densitometric Scales...",    ID_EDIT_DENSSCALES
+        MENUITEM SEPARATOR
+        MENUITEM "C&ustomize...",               ID_EDIT_CUSTOMIZE
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Close Window",               ID_WINDOW_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "S&plit",                      ID_WINDOW_SPLIT
+        MENUITEM SEPARATOR
+        MENUITEM "&Cascade Windows",            ID_WINDOW_CASCADE
+        MENUITEM "&Tile Windows",               ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+        MENUITEM SEPARATOR
+        MENUITEM "&Minimize All",               ID_WINDOW_MINIMIZE
+        MENUITEM "Ma&ximize All",               ID_WINDOW_MAXIMIZE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents\tF1",               ID_HELP_FINDER
+        MENUITEM "&aIm Helper\tShift+F1",       ID_HELP_HELPER
+        MENUITEM SEPARATOR
+        MENUITEM "&About Dias...",              ID_APP_ABOUT
+        POPUP "About Plug-in"
+        BEGIN
+            MENUITEM "Plug-ins List",               ID_HELP_PLUGIN_LIST
+            , GRAYED
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Feedback...",                 ID_HELP_FEEDBACK
+    END
+END
+
+IDR_POPUP_DOC_EMPTY MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup Doc Item"
+    BEGIN
+        MENUITEM "Add a new element",           ID_EDIT_ADD
+        MENUITEM SEPARATOR
+        POPUP "View style"
+        BEGIN
+            MENUITEM "Big icons",                   ID_EDIT_STYLE_BIG
+            MENUITEM "Small icons",                 ID_EDIT_STYLE_SMALL
+        END
+    END
+END
+
+IDR_POPUP_DOC_ITEM MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup Doc Item"
+    BEGIN
+        MENUITEM "Add a new element",           ID_EDIT_ADD
+        MENUITEM "Remove an element",           ID_EDIT_REMOVE
+        MENUITEM SEPARATOR
+        MENUITEM "Move element up",             ID_EDIT_UP
+        MENUITEM "Move element down",           ID_EDIT_DOWN
+        MENUITEM SEPARATOR
+        MENUITEM "Go to the prevoius element",  ID_EDIT_PREV
+        MENUITEM "Go to the next element",      ID_EDIT_NEXT
+        MENUITEM SEPARATOR
+        MENUITEM "Element propertes",           ID_EDIT_PROP
+        POPUP "View style"
+        BEGIN
+            MENUITEM "Big icons",                   ID_EDIT_STYLE_BIG
+            MENUITEM "Small icons",                 ID_EDIT_STYLE_SMALL
+        END
+    END
+END
+
+IDR_POPUP_DOC_ADDIMG MENU DISCARDABLE 
+BEGIN
+    POPUP "Add image"
+    BEGIN
+        MENUITEM "&Add image",                  ID_DOC_ADD_IMAGE
+        MENUITEM "A&dd images...",              ID_DOC_ADD_SEQUENCE
+        MENUITEM SEPARATOR
+        MENUITEM "Add in ac&quire mode...",     ID_DOC_ADD_ACQUIRE
+        MENUITEM SEPARATOR
+        MENUITEM "&Import image...",            ID_DOC_ADD_IMPORTIMG
+        MENUITEM "Import &sequence...",         ID_DOC_ADD_IMPORTSEQ
+    END
+END
+
+IDR_POPUP_DOC_ADDDB MENU DISCARDABLE 
+BEGIN
+    POPUP "Add database"
+    BEGIN
+        MENUITEM "&Add survey...",              ID_DOC_ADD_DB
+        MENUITEM SEPARATOR
+        MENUITEM "Add in &measure mode...",     ID_DOC_ADD_DBMEASURE
+        MENUITEM SEPARATOR
+        MENUITEM "&Import survey...",           ID_DOC_ADD_IMPORTDB
+    END
+END
+
+IDR_POPUP_DOC_ADDRPT MENU DISCARDABLE 
+BEGIN
+    POPUP "Add report"
+    BEGIN
+        MENUITEM "&Add report",                 ID_DOC_ADD_REPORT
+    END
+END
+
+IDR_POPUP_DOC_ZOOM MENU DISCARDABLE 
+BEGIN
+    POPUP "Zoom"
+    BEGIN
+        MENUITEM "To &fit",                     ID_VIEW_ZOOM_FIT
+        MENUITEM "&1:1",                        ID_VIEW_ZOOM_1TO1
+        MENUITEM SEPARATOR
+        MENUITEM "25%",                         ID_VIEW_ZOOM_25
+        MENUITEM "33%",                         ID_VIEW_ZOOM_33
+        MENUITEM "50%",                         ID_VIEW_ZOOM_50
+        MENUITEM "66%",                         ID_VIEW_ZOOM_66
+        MENUITEM "75%",                         ID_VIEW_ZOOM_75
+        MENUITEM SEPARATOR
+        MENUITEM "125%",                        ID_VIEW_ZOOM_125
+        MENUITEM "150%",                        ID_VIEW_ZOOM_150
+        MENUITEM "200%",                        ID_VIEW_ZOOM_200
+        MENUITEM "250%",                        ID_VIEW_ZOOM_250
+        MENUITEM "300%",                        ID_VIEW_ZOOM_300
+        MENUITEM "400%",                        ID_VIEW_ZOOM_400
+        MENUITEM "500%",                        ID_VIEW_ZOOM_500
+        MENUITEM "750%",                        ID_VIEW_ZOOM_750
+        MENUITEM "1000%",                       ID_VIEW_ZOOM_1000
+        MENUITEM SEPARATOR
+        MENUITEM "Other...",                    ID_VIEW_ZOOM_OTHER
+    END
+END
+
+IDR_POPUP_MARKER_STYLE MENU DISCARDABLE 
+BEGIN
+    POPUP "Marker style"
+    BEGIN
+        MENUITEM "Add...",                      ID_MARKER_STYLE_ADD
+        MENUITEM "Duplicate...",                ID_MARKER_STYLE_DUPLICATE
+        MENUITEM "Delete",                      ID_MARKER_STYLE_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Rename...",                   ID_MARKER_STYLE_RENAME
+        MENUITEM SEPARATOR
+        MENUITEM "Import...",                   ID_MARKER_STYLE_IMPORT
+        MENUITEM "Export...",                   ID_MARKER_STYLE_EXPORT
+        MENUITEM "Autoimport list...",          ID_MARKER_AUTOIMPORT
+    END
+END
+
+IDR_POPUP_MARKER_KRNLSTYLE MENU DISCARDABLE 
+BEGIN
+    POPUP "Marker kernel"
+    BEGIN
+        MENUITEM "&None",                       ID_MARKER_KERNEL_NONE
+        MENUITEM "&Round",                      ID_MARKER_KERNEL_ROUND
+        MENUITEM "&X-Shaped",                   ID_MARKER_KERNEL_X
+        MENUITEM "&+-Shaped",                   ID_MARKER_KERNEL_PLUS
+    END
+END
+
+IDR_POPUP_MARKER_SHPSTYLE MENU DISCARDABLE 
+BEGIN
+    POPUP "Marker shape"
+    BEGIN
+        MENUITEM "&None",                       ID_MARKER_SHAPE_NONE
+        MENUITEM "&Ellipse",                    ID_MARKER_SHAPE_ELLIPSE
+        MENUITEM "&Triangle",                   ID_MARKER_SHAPE_TRI
+        MENUITEM "&Rectangle",                  ID_MARKER_SHAPE_RECT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_DISTYPE ACCELERATORS DISCARDABLE 
+BEGIN
+    "A",            ID_EDIT_SELECT,         VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_DOC_REMOVE,          VIRTKEY, NOINVERT
+    VK_F2,          ID_EDIT_RENAME,         VIRTKEY, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,0
+ PRODUCTVERSION 2,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "World Wide Science\0"
+            VALUE "FileDescription", "Dias Application\0"
+            VALUE "FileVersion", "2.0\0"
+            VALUE "InternalName", "DIAS\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998-2002 Maxim A. Orlovsky\0"
+            VALUE "LegalTrademarks", "Maxim A. Orlovsky\0"
+            VALUE "OriginalFilename", "Dias.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Digital Image Analysis System\0"
+            VALUE "ProductVersion", "2.0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  24, 24
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_FILE_MAIL
+    SEPARATOR
+    BUTTON      ID_FILE_IMPORT
+    BUTTON      ID_FILE_EXPORT
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT_PREVIEW
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_EDIT_DELETE
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    SEPARATOR
+    BUTTON      ID_EDIT_FIND
+    BUTTON      ID_EDIT_REPLACE
+    SEPARATOR
+    BUTTON      ID_EDIT_PREFERENCES
+    BUTTON      ID_IMAGE_PLUGINS
+    SEPARATOR
+    BUTTON      ID_HELP
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_TBX_DOC_IMG TOOLBAR DISCARDABLE  19, 19
+BEGIN
+    BUTTON      ID_IMAGE_ADD
+    BUTTON      ID_IMAGE_ADDSEQ
+    BUTTON      ID_IMAGE_ACQUIRE_CAMERA
+    BUTTON      ID_DOC_REMOVE
+    SEPARATOR
+    BUTTON      ID_IMAGE_IMPORT
+    BUTTON      ID_IMAGE_EXPORT
+    SEPARATOR
+    BUTTON      ID_DOC_UP
+    BUTTON      ID_DOC_DOWN
+    SEPARATOR
+    BUTTON      ID_VIEW_ZOOM
+    SEPARATOR
+    BUTTON      ID_VIEW_SCALE
+    BUTTON      ID_VIEW_IMAGE
+    BUTTON      ID_VIEW_PATCHES
+    BUTTON      ID_VIEW_MARKS
+    BUTTON      ID_VIEW_TEXTS
+    BUTTON      ID_VIEW_METRICS
+END
+
+IDR_TBX_IMAGES TOOLBAR DISCARDABLE  24, 24
+BEGIN
+    BUTTON      ID_TOOLBOX_PTR
+    BUTTON      ID_TOOLBOX_HAND
+    SEPARATOR
+    BUTTON      ID_TOOLBOX_SELECT
+    BUTTON      ID_TOOLBOX_INFO
+    SEPARATOR
+    BUTTON      ID_TOOLBOX_ZOOMIN
+    BUTTON      ID_TOOLBOX_ZOOMOUT
+    SEPARATOR
+    BUTTON      ID_TOOLBOX_OBJ
+    BUTTON      ID_TOOLBOX_OBJCNG
+    BUTTON      ID_TOOLBOX_OBJPTR
+    SEPARATOR
+    BUTTON      ID_TOOLBOX_METER
+    BUTTON      ID_TOOLBOX_METERPTR
+    SEPARATOR
+    BUTTON      ID_TOOLBOX_MARK
+    BUTTON      ID_TOOLBOX_MARKPTR
+    BUTTON      ID_TOOLBOX_MARKSEL
+    SEPARATOR
+    BUTTON      ID_TOOLBOX_TEXT
+    BUTTON      ID_TOOLBOX_TEXTPTR
+END
+
+IDR_TBP_MARKERS TOOLBAR DISCARDABLE  20, 20
+BEGIN
+    BUTTON      ID_MARKER_STYLE
+    BUTTON      ID_MARKER_SELSTYLE
+    SEPARATOR
+    BUTTON      ID_MARKER_KRNLSTYLE
+    BUTTON      ID_MARKER_KRNLSIZE
+    BUTTON      ID_MARKER_KRNLCOL
+    SEPARATOR
+    BUTTON      ID_MARKER_SHPSTYLE
+    BUTTON      ID_MARKER_SHPY
+    BUTTON      ID_MARKER_SHPX
+    BUTTON      ID_MARKER_SIZELOCK
+    BUTTON      ID_MARKER_SHPROT
+    BUTTON      ID_MARKER_ROTLOCK
+    SEPARATOR
+    BUTTON      ID_MARKER_SHPCOL
+    BUTTON      ID_MARKER_INTCOL
+    SEPARATOR
+    BUTTON      ID_MARKER_COPYSTYLE
+    SEPARATOR
+    BUTTON      ID_MARKER_HELP
+END
+
+IDR_TBP_IMAGE TOOLBAR DISCARDABLE  20, 20
+BEGIN
+    BUTTON      ID_IMAGE_LUT
+    SEPARATOR
+    BUTTON      ID_IMAGE_GEOMSCALE
+    BUTTON      ID_IMAGE_DENSSCALE
+END
+
+IDR_TBX_SURVEIS TOOLBAR DISCARDABLE  20, 20
+BEGIN
+    BUTTON      ID_TOOLBOX_PTR
+    BUTTON      ID_TOOLBOX_HAND
+    SEPARATOR
+    BUTTON      ID_TOOLBOX_TEXTPTR
+END
+
+IDR_TBX_DOC_SRV TOOLBAR DISCARDABLE  19, 19
+BEGIN
+    BUTTON      ID_SURVEY_ADD
+    BUTTON      ID_DOC_REMOVE
+    SEPARATOR
+    BUTTON      ID_SURVEY_FIELDS
+    BUTTON      ID_SURVEY_MEASURE
+    SEPARATOR
+    BUTTON      ID_SURVEY_IMPORT
+    BUTTON      ID_SURVEY_EXPORT
+    SEPARATOR
+    BUTTON      ID_DOC_UP
+    BUTTON      ID_DOC_DOWN
+END
+
+IDR_TBX_DOC_REP TOOLBAR DISCARDABLE  19, 19
+BEGIN
+    BUTTON      ID_DOC_ADD_IMAGE
+    BUTTON      ID_DOC_ADD_SEQUENCE
+    BUTTON      ID_DOC_ADD_ACQUIRE
+    BUTTON      ID_DOC_REMOVE
+    SEPARATOR
+    BUTTON      ID_DOC_UP
+    BUTTON      ID_DOC_DOWN
+    SEPARATOR
+    BUTTON      ID_VIEW_ZOOM
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DOC_NEW DLGINIT
+BEGIN
+    IDC_DN_DIMX, 0x403, 3, 0
+0x3233, "\000" 
+    IDC_DN_DIMX, 0x403, 3, 0
+0x3436, "\000" 
+    IDC_DN_DIMX, 0x403, 4, 0
+0x3231, 0x0038, 
+    IDC_DN_DIMX, 0x403, 4, 0
+0x3532, 0x0036, 
+    IDC_DN_DIMX, 0x403, 4, 0
+0x3233, 0x0030, 
+    IDC_DN_DIMX, 0x403, 4, 0
+0x3833, 0x0034, 
+    IDC_DN_DIMX, 0x403, 4, 0
+0x3135, 0x0032, 
+    IDC_DN_DIMX, 0x403, 4, 0
+0x3436, 0x0030, 
+    IDC_DN_DIMX, 0x403, 4, 0
+0x3637, 0x0038, 
+    IDC_DN_DIMX, 0x403, 4, 0
+0x3038, 0x0030, 
+    IDC_DN_DIMX, 0x403, 4, 0
+0x3638, 0x0034, 
+    IDC_DN_DIMX, 0x403, 5, 0
+0x3031, 0x3432, "\000" 
+    IDC_DN_DIMX, 0x403, 5, 0
+0x3131, 0x3235, "\000" 
+    IDC_DN_DIMX, 0x403, 5, 0
+0x3231, 0x3038, "\000" 
+    IDC_DN_DIMX, 0x403, 5, 0
+0x3631, 0x3030, "\000" 
+    IDC_DN_DIMX, 0x403, 5, 0
+0x3032, 0x3834, "\000" 
+    IDC_DN_DIMX, 0x403, 5, 0
+0x3034, 0x3639, "\000" 
+    IDC_DN_DIMY, 0x403, 3, 0
+0x3233, "\000" 
+    IDC_DN_DIMY, 0x403, 3, 0
+0x3436, "\000" 
+    IDC_DN_DIMY, 0x403, 4, 0
+0x3231, 0x0038, 
+    IDC_DN_DIMY, 0x403, 4, 0
+0x3532, 0x0036, 
+    IDC_DN_DIMY, 0x403, 4, 0
+0x3233, 0x0030, 
+    IDC_DN_DIMY, 0x403, 4, 0
+0x3833, 0x0034, 
+    IDC_DN_DIMY, 0x403, 4, 0
+0x3135, 0x0032, 
+    IDC_DN_DIMY, 0x403, 4, 0
+0x3735, 0x0036, 
+    IDC_DN_DIMY, 0x403, 4, 0
+0x3436, 0x0030, 
+    IDC_DN_DIMY, 0x403, 4, 0
+0x3637, 0x0038, 
+    IDC_DN_DIMY, 0x403, 4, 0
+0x3038, 0x0030, 
+    IDC_DN_DIMY, 0x403, 4, 0
+0x3638, 0x0034, 
+    IDC_DN_DIMY, 0x403, 5, 0
+0x3031, 0x3432, "\000" 
+    IDC_DN_DIMY, 0x403, 5, 0
+0x3131, 0x3235, "\000" 
+    IDC_DN_DIMY, 0x403, 5, 0
+0x3231, 0x3038, "\000" 
+    IDC_DN_DIMY, 0x403, 5, 0
+0x3631, 0x3030, "\000" 
+    IDC_DN_DIMY, 0x403, 5, 0
+0x3032, 0x3834, "\000" 
+    IDC_DN_DIMY, 0x403, 5, 0
+0x3034, 0x3639, "\000" 
+    0
+END
+
+IDD_PREF_SAVE DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_COMBO1, 0x403, 8, 0
+0x6146, 0x7473, 0x7365, 0x0074, 
+    IDC_COMBO1, 0x403, 7, 0
+0x654d, 0x6964, 0x6d75, "\000" 
+    IDC_COMBO1, 0x403, 8, 0
+0x614d, 0x6978, 0x756d, 0x006d, 
+    IDC_COMBO1, 0x403, 6, 0
+0x7845, 0x7274, 0x0061, 
+    IDC_COMBO1, 0x403, 7, 0
+0x7543, 0x7473, 0x6d6f, "\000" 
+    IDC_COMBO2, 0x403, 8, 0
+0x4e47, 0x2055, 0x495a, 0x0050, 
+    IDC_COMBO2, 0x403, 8, 0
+0x4947, 0x2046, 0x5a4c, 0x0057, 
+    IDC_COMBO2, 0x403, 4, 0
+0x4e50, 0x0047, 
+    IDC_COMBO3, 0x403, 8, 0
+0x4e47, 0x2055, 0x495a, 0x0050, 
+    IDC_COMBO3, 0x403, 8, 0
+0x4947, 0x2046, 0x5a4c, 0x0057, 
+    IDC_COMBO3, 0x403, 4, 0
+0x4e50, 0x0047, 
+    IDC_COMBO4, 0x403, 8, 0
+0x4e47, 0x2055, 0x495a, 0x0050, 
+    IDC_COMBO4, 0x403, 8, 0
+0x4947, 0x2046, 0x5a4c, 0x0057, 
+    IDC_COMBO4, 0x403, 4, 0
+0x4e50, 0x0047, 
+    IDC_COMBO5, 0x403, 8, 0
+0x4e47, 0x2055, 0x495a, 0x0050, 
+    IDC_COMBO5, 0x403, 8, 0
+0x4947, 0x2046, 0x5a4c, 0x0057, 
+    IDC_COMBO5, 0x403, 4, 0
+0x4e50, 0x0047, 
+    IDC_COMBO6, 0x403, 8, 0
+0x4e47, 0x2055, 0x495a, 0x0050, 
+    IDC_COMBO6, 0x403, 8, 0
+0x4947, 0x2046, 0x5a4c, 0x0057, 
+    IDC_COMBO6, 0x403, 4, 0
+0x4e50, 0x0047, 
+    0
+END
+
+IDD_DOC_ADD_SURVEY DLGINIT
+BEGIN
+    IDC_DAS_OBJECT, 0x1234, 6, 0
+0x6d49, 0x6761, 0x0065, 
+    IDC_DAS_OBJECT, 0x1234, 8, 0
+0x6843, 0x6e61, 0x656e, 0x006c, 
+    IDC_DAS_OBJECT, 0x1234, 6, 0
+0x6150, 0x6374, 0x0068, 
+    IDC_DAS_OBJECT, 0x1234, 5, 0
+0x614d, 0x6b72, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "aIm Suite DIAS"
+    IDR_DISTYPE             "\nStorage\nStorage\nDias Images Storage (*.dis)\n.dis\naIm.Dias.Storage\nDias Images Storage"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Dias"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+    IDS_TBX_DOC_ADD_IMAGE   "Add image"
+    IDS_TBX_DOC_REMOVE      "Remove"
+    IDS_TBX_DOC_UP          "Move up"
+    IDS_TBX_DOC_ADD_ACQUIRE "Acquire"
+    IDS_TBX_DOC_IMAGES      "Images"
+    IDS_TBX_DOC_DB          "Surveis"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TBX_DOC_REPORTS     "Reports"
+    IDS_TBX_IMG             "Image Tools"
+    IDS_IMPORTSEQ_DLGCAPTION "Import images sequence"
+    IDS_IMPORTSEQ_DEFNAME   "%s - %02d"
+    IDS_IMPORTSEQ_OPENERR   "Can not import images - an error occured during file open"
+    IDS_IMPORTSEQ_TYPEERR   "Can not import images - wrong file header. You should check file type"
+    IDS_IMPORTSEQ_SIZEERR   "Can not import images - image sizes in file are inconsistent with current image size in document. Set a new image size"
+    IDS_TBX_DOC_ZOOM        "100%"
+    IDS_ERR_SYS_MEMRES      "A memory error occured. Close all documents and applications and reboot the computer.\n\nSend the following data to the developer:\n\nAction:\t\tVirtualAlloc\nRequest type:\tMEM_RESERVE\nProcedure:\t%s\nLocation:\t\t%s, line %d\nMessage:\t\t%s\nError:\t\t%s"
+    IDS_ERR_SYS_MEMCOM      "A memory error occured. Close all documents and applications and reboot the computer.\n\nSend the following data to the developer:\n\nAction:\t\tVirtualAlloc\nRequest type:\tMEM_COMMIT\nProcedure:\t%s\nLocation:\t\t%s, line %d\nMessage:\t\t%s\nError:\t\t%s"
+    IDS_ERR_SYS_MEMDECOM    "A memory error occured. Close all documents and applications and reboot the computer.\n\nSend the following data to the developer:\n\nAction:\t\tVirtualFree\nRequest type:\tMEM_DECOMMIT\nProcedure:\t%s\nLocation:\t\t%s, line %d\nMessage:\t\t%s\nError:\t\t%s"
+    IDS_ERR_SYS_MEMREL      "A memory error occured. Close all documents and applications and reboot the computer.\n\nSend the following data to the developer:\n\nAction:\t\tVirtualFree\nRequest type:\tMEM_DECOMMIT\nProcedure:\t%s\nLocation:\t\t%s, line %d\nMessage:\t\t%s\nError:\t\t%s"
+    IDS_MARKER_COPYSTYLE    "Copy style"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOLBOX_PTR          "Pointer (V)"
+    ID_TOOLBOX_HAND         "Move the image\nMove tool"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOLBOX_ZOOM         "Zoom the image\nZoom"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MARKER_SELSTYLE      "Select style"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MARKER_KRNLSTYLE_NONE "None"
+    IDS_MARKER_KRNLSTYLE_ROUND "Round"
+    IDS_MARKER_KRNLSTYLE_X  "X-shaped"
+    IDS_MARKER_KRNLSTYLE_CROSS "Cross"
+    IDS_MARKER_SHPSTYLE_NONE "None"
+    IDS_MARKER_SHPSTYLE_ELLIPSE "Ellipse"
+    IDS_MARKER_SHPSTYLE_TRIANGLE "Triangle"
+    IDS_MARKER_SHPSTYLE_RECTANGLE "Rectangle"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MARKER_SELSTYLE     "Select style"
+    IDS_TBP_MRKCREATE       "Mark create tool property bar"
+    IDS_CM_BW               "Monochrome (B&W)"
+    IDS_CM_GRAY             "Paletted (Grayscale)"
+    IDS_CM_RGB              "RGB colors"
+    IDS_CM_CMY              "CMY colors"
+    IDS_CM_CMYK             "CMYK colors"
+    IDS_CM_LAB              "Lab colors"
+    IDS_ERR_DOC_VERSION     "The file being opened is not a DIAS Storage verion 2.0 document"
+    IDS_ERR_DOC             "Document error"
+    IDS_COLORMODEL          "Color model"
+    IDS_BPP                 "Bits per pixel"
+    IDS_CHANNELS            "Channels"
+    IDS_CM_MULTY            "Multichannel"
+    IDS_TBX_DOC_ADD_DB      "Add survey"
+    IDS_TBX_DOC_MEASURE     "Measure"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_SAVEAS          "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DLG_CAPTURE_LIVE    "Live"
+    IDS_DLG_CAPTURE_STOP    "Stop"
+    IDS_REG_ROOT            "Software\\World Wide Science\\aIm Suite.Forthcoming\\DIAS"
+    IDS_MBTITLE_APP         "DIAS"
+    IDS_MBTEXT_REGERR       "Unable to read the program settings from Windows registry."
+    IDS_MBTEXT_FSETERR      "Unable to open the program settings file."
+    IDS_MBTEXT_FSETWERR     "Unable to write the program settings file. All changes in program configuration will be lost."
+    IDS_PREFERENCES         "DIAS Preferences"
+    IDS_DENS_COL_NAME       "Scale name"
+    IDS_DENS_COL_COEF1      """a"""
+    IDS_DENS_COL_COEF2      """b"""
+    IDS_DENS_COL_UNITS      "Units"
+    IDS_DENS_COL_DESCRIPT   "Description"
+    IDS_DENS_TYPE_LINEAR    "Linear"
+    IDS_DENS_TYPE_POLY      "Polynomial"
+    IDS_DENS_TYPE_EXP       "Exponential"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DENS_TYPE_LOG       "Logarithmical"
+    IDS_MBTEXT_REGWERR      "Unable to write the program settings to Windows registry."
+    IDS_MRKKRNL_NAME        "Name"
+    IDS_TBX_DOC_IMPORT      "Import"
+    IDS_TBX_DOC_EXPORT      "Export"
+    IDS_IMGPB_SHOW          "Show All"
+    IDS_IMGPB_HIDE          "Hide"
+    IDS_MRKSHP_NAME         "Name"
+    IDS_METRICS_PX          "px"
+    IDS_METRICS_PIXELS      "pixels"
+    IDS_METRICS_DEGR        "°"
+    IDS_METRICS_DEGREES     "degrees"
+    IDS_MRKSTYLE_NAME       "Name"
+    IDS_MRKSTYLE_DESCR      "Description"
+    IDS_DLG_DAS_FIELDCAPTION "Field caption"
+    IDS_DLG_DAS_FIELDNAME   "Variable name"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_EXPORTSEQ_DLGCAPTION "Export images sequence"
+    IDS_EXPORTSEQ_OPENERR   "Can not export images - an error occured during file open"
+    IDS_MBTITLE_WARNING     "Warning"
+    IDS_MBTEXT_ADDSRVDLG    "Changing measuring object will clear all selected parameters"
+    IDS_DLG_DAS_UNIT        "Unit"
+    IDS_TBX_DOC_FIELDS      "Fields"
+    IDS_DLG_DAS_APP         "DIAS application"
+    IDS_DLG_DAS_DOC         "Storage document"
+    IDS_DLG_DAS_IMG         "Image"
+    IDS_DLG_DAS_CHNL        "Channel"
+    IDS_DLG_DAS_PTCH        "Patch"
+    IDS_DLG_DAS_MRK         "Mark"
+    IDS_DLG_DAS_USR         "User defined"
+    IDS_STATUS_READY        "Ready"
+    IDS_MBTEXT_DIASKS_NO    "The DIAS kernel service is not running. Image analysis function will be unavaible"
+    IDS_MBTITLE_COLLISION   "Collision"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MBTEXT_COLLISION    "The name is already in use. Do you want to try another name?"
+    IDS_MBTITLE_DELETE      "Deletion"
+    IDS_MBTEXT_DELETE       "Do you really want to delete the item?"
+    IDS_MBTITLE_ERROR       "Error"
+    IDS_MBTEXT_BUILTINDELETION "Unable to delete build-in object"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Dias.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

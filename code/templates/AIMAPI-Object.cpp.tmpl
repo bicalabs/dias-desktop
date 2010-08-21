@@ -1,0 +1,46 @@
+#include "stdafx.h"
+#include "`APPNAME`.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+// `CLSNAME`
+
+`CLSNAME`::`CLSNAME` () {
+	CaImAPIObject::CaImAPIObject ();
+	...
+}
+
+`CLSNAME`::~`CLSNAME` () {
+	CaImAPIObject::~CaImAPIObject ();
+	...
+}
+
+`CLSNAME`::`CLSNAME` (const `CLSNAME` &obj) {
+	CaImAPIObject::CaImAPIObject ((const CaImAPIObject&)obj);
+	*this = var;
+}
+
+`CLSNAME`& `CLSNAME`::operator= (const `CLSNAME`& obj) {
+	CaImAPIObject::operator = ((const CaImAPIObject&)obj);
+	...
+	return (*this);
+}
+
+`CLSNAME`::`CLSNAME` (...) {
+	m_pColl = m_pParent = NULL;
+	...
+}
+
+void `CLSNAME`::Clear () {
+	m_strName = m_strDescr = "";
+	...
+}
+
+void `CLSNAME`::Update (CaImAPIObject* pObj, udword dwFlags) {
+	...
+}

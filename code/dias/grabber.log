@@ -1,0 +1,66 @@
+
+------------------------------------------------------------------
+Filename: GRABBER.LOG created at 18:50:21 11/12/02 by Q:\Personal\Projects\Systems\aIm Suite.Forthcoming\Release\Dias\Dias.exe
+
+****** Operating System *******
+OSWIN32: C:\WINNT\System32\OSWIN32.DLL
+Operating System: NT 5.0 (2195)
+MatrixFG Version: 1.84
+
+****** Driver Information *******
+Device Type: 0xA0
+Device Name: SLx
+Driver Type: MICROSOFT-WIN32
+Driver Date: Jul 19 2002
+Driver Time: 16:26:00
+Driver File    : C:\WINNT\System32\MVSL32.DLL
+Driver Version : 4.1.1.10
+
+****** PCI-Slot Information *******
+ BN BR SL  VNID  DVID  RVID  CMDR  BASEADDR  ROMADDR IRQ  L LAT
+ --------------------------------------------------------------
+  0 00 00  8086  2530  0004  0106  F8000008  00000000   0 0   0
+  1 00 01  8086  2532  0004  0107  00000000  00000000   0 0  20
+  2 00 1E  8086  244E  0004  0107  00000000  00000000   0 0   0
+  3 00 1F  8086  2440  0004  000F  00000000  00000000   0 0   0
+  4 01 00  10DE  0110  00B2  0007  FD000000  00000000  16 1  F8
+                                   e8000008 
+  5 02 0A  109E  0350  0012  0106  F47FF008  00000000  22 1  C8
+  6 02 0B  1050  0940  0000  0103  0000DF81  00000000  23 1   0
+  7 02 0C  10EC  8139  0010  0107  0000D801  00000000  17 1  80
+                                   feaefc00 
+
+PCI Bus hw-mech = 1, ver=0000, last bus = 31
+Display:  1600 x 1200 x 32 bpp, VEN/DEV-ID = 0x10de/0x0110  Address: 0xe8000000
+SLX found at bridge/slot 0x2/0xA
+ pBt848Reg: 0x573F000
+
+****** Board Information *******
+SerialNumber : GL030304022
+Revision     : 3.12
+BoardType    : SLG
+DisplayMem   : 0
+
+****** Allocate buffer ******
+allocate virtual buffer ok, p 0x5750000, size 0x400000
+
+****** Digitizer Information ******
+Module Name: slcin
+Driver Date: Jul 19 2002
+Driver Time: 16:26:03
+
+****** Init Digitizer ******
+OS: InitISR(0xa3,2,10) = 0x12e8cd
+
+****** Access Information ******
+DMA-Buffer - Physical: 0x195e3000, Ptr: 0x 5750000, Size: 0x  400000
+Display    - Physical: 0xe8000000, Ptr: 0x 3720000, Size: 0x 2000000
+Display:  1600 x 1200 x 32 bpp, VEN/DEV-ID = 0x10de/0x0110  Address: 0xe8000000
+BUS-Interf - Physical: 0xF47FF000
+bridge/slot 2/10 IRQ = 22
+SetPCILatency(2,10,200), old latency = 200
+
+****** Digitizer closed ******
+OS: CloseISR(1239245) = 0x1
+
+****** Board closed ******

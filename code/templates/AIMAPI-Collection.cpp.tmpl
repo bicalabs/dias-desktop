@@ -1,0 +1,124 @@
+#include "stdafx.h"
+#include "`AIMAPP`.h"
+#include "`COLLNAME`.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+// `COLLNAME`
+
+`COLLNAME`::`COLLNAME` () {
+	CaImAPICollectionExt<`CLSNAME`>::CaImAPICollectionExt<`CLSNAME`> ();
+// RANGE	m_rngInt.m_ppHead = &m_pHashHead;
+}
+
+`COLLNAME`::~`COLLNAME` () {
+	CaImAPICollectionExt<`CLSNAME`>::~CaImAPICollectionExt<`CLSNAME`> ();
+}
+
+`COLLNAME`& `COLLNAME`::operator= (const `COLLNAME`& coll) {
+	return ((`COLLNAME`&) (CaImAPICollection<`CLSNAME`>::operator= ( (CaImAPICollection<`CLSNAME`>&)coll )));
+}
+
+`CLSNAME`& `COLLNAME`::operator[] (uvar32_64 pos) {
+	return (CaImAPICollectionExt<`CLSNAME`>::operator[] (pos));
+}
+
+`CLSNAME`& `COLLNAME`::operator[] (CString name) {
+	return (CaImAPICollectionExt<`CLSNAME`>::operator[] (name));
+}
+
+`CLSNAME`& `COLLNAME`::operator[] (aImAPIRngType t) {
+	if (t != aimActive)
+		throw (CaImAPIException (EXCPT_INVALIDARG, "`COLLNAME`::operator[] (aImAPIRngType)"));
+	// $$$$ TODO: Paste determinatioon of the active element
+}
+
+// RANGE
+/*`RNGNAME`& `COLLNAME`::operator() (aImAPIRngType type) {
+	uvar32_64 sel;
+	POSITION pos;
+	m_rngInt.Reset ();
+	if (!m_pHashHead)
+		return (m_rngInt);
+	CHash<`CLSNAME`*, `CLSNAME`>* p;
+	switch (type) {
+		case aimAll:
+			for (p = m_pHashHead ; !p ; p = p->GetNext ())
+				m_rngInt.Include (p);
+			break;
+		case aimVisible:
+			// $$$$ TODO: Place code here
+			break;
+		case aimActive:
+			// $$$$ TODO: Place code here
+			break;
+		case aimSelected:
+			// $$$$ TODO: Place code here
+			break;
+		default:
+			throw (CaImAPIException (EXCPT_INVALIDARG, "`COLLNAME`::operator[] (aImAPIRngType)"));
+	}
+	return (m_rngInt);
+}
+
+`RNGNAME`& `COLLNAME`::operator() (uvar32_64 no, ...) {
+	AIMAPICOLL_GETRANGE_NO ("`COLLNAME`::operator() (uvar32_64, ...)");
+	return (m_rngInt);
+}
+
+`RNGNAME`& `COLLNAME`::operator() (const char *name, ...) {
+	AIMAPICOLL_GETRANGE_NAME ("`COLLNAME`::operator() (const char*, ...)");
+	return (m_rngInt);
+}*/
+
+void `COLLNAME`::Serialize (CArchive& ar) {
+	CaImAPICollection<`CLSNAME`>::Serialize (ar);
+	uvar32_64 n, size;
+	if (ar.IsLoading ()) {
+		ar.Read (&size, sizeof (uvar32_64));
+		Add (size);
+		for (n = 0; n < size; ++n)
+			(*this)[n].Serialize (ar);
+	}
+}
+
+uvar32_64 `COLLNAME`::Add (...) {
+	`CLSNAME`* pObj = new `CLSNAME` (...);
+	return (CaImAPICollectionExt<`CLSNAME`>::Add (*pObj));
+}
+uvar32_64 `COLLNAME`::Add (uvar32_64 cnt, ...) {
+	uvar32_64 pos;
+	for (uvar32_64 n = 0 ; n < cnt ; ++n)
+		`CLSNAME`* pObj = new `CLSNAME` (...);
+		pos = CaImAPICollectionExt<`CLSNAME`>::Add (*pObj);
+	}
+	return (cnt);
+}
+uvar32_64 `COLLNAME`::Insert (uvar32_64 pos, ...) {
+	`CLSNAME`* pObj = new `CLSNAME` (...);
+	return (CaImAPICollectionExt<`CLSNAME`>::Insert (pos, *pObj));
+}
+uvar32_64 `COLLNAME`::Insert (CString name, ...) {
+	`CLSNAME`* pObj = new `CLSNAME` (...);
+	return (CaImAPICollectionExt<`CLSNAME`>::Insert (name, *pObj));
+}
+uvar32_64 `COLLNAME`::Insert (svar32_64 pos, uvar32_64 cnt, ...) {
+	for (uvar32_64 n = 0 ; n < cnt ; ++n) {
+		`CLSNAME`* pObj = new `CLSNAME` (...);
+		CaImAPICollectionExt<`CLSNAME`>::Insert (pos, *pObj);
+	}
+	return (cnt);
+}
+uvar32_64 `COLLNAME`::Insert (CString pos, uvar32_64 cnt, ...) {
+	uvar32_64 pos2;
+	for (uvar32_64 n = 0 ; n < cnt ; ++n) {
+		`CLSNAME`* pObj = new `CLSNAME` (...);
+		pos2 = CaImAPICollectionExt<`CLSNAME`>::Insert (pos, *pObj);
+	}
+	return (cnt);
+}

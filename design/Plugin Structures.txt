@@ -1,0 +1,21 @@
+Structure for plugin function:
+
+	0. General
+		Function name
+	1. Menu components
+		Menu function ptr
+		Menu update function ptr
+		Category
+		Menu name
+		Statusbar info
+		Menu help
+	2. Dialog box components
+		Dialog box type
+		*Dialog box template ID
+		Dialog box options
+		Dialog box caption
+		Help text
+		Other dialog box parameters
+	3. Other
+		Help file ID
+		

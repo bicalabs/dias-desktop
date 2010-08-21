@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TESLA - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\tmp\winxp\tmp\RSP164.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"..\..\..\Temp\Debug\TESLA/TESLA.pch" /Yu"stdafx.h" /Fo"..\..\..\Temp\Debug\TESLA/" /Fd"..\..\..\Temp\Debug\TESLA/" /FD /GZ /c 
+"p:\ict\sys\dias\code\common\TESLA\TESLA.cpp"
+]
+Creating command line "cl.exe @c:\tmp\winxp\tmp\RSP164.tmp" 
+Creating temporary file "c:\tmp\winxp\tmp\RSP165.tmp" with contents
+[
+..\..\..\Release\Shared\aimapi.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\..\..\Release\Shared/TESLA.pdb" /debug /machine:I386 /def:".\TESLA.def" /out:"..\..\..\Release\Shared/TESLA.dll" /implib:"..\..\..\Release\Shared/TESLA.lib" /pdbtype:sept 
+\ict\sys\dias\Temp\Debug\TESLA\StdAfx.obj
+\ict\sys\dias\Temp\Debug\TESLA\TESLA.obj
+]
+Creating command line "link.exe @c:\tmp\winxp\tmp\RSP165.tmp"
+<h3>Output Window</h3>
+Compiling...
+TESLA.cpp
+p:\ict\sys\dias\code\include\aimapi\aimapirange.h(35) : warning C4290: C++ Exception Specification ignored
+        p:\ict\sys\dias\code\include\aimapi\aimapirange.h(86) : see reference to class template instantiation 'CaImAPIRange<T>' being compiled
+p:\ict\sys\dias\code\include\aimapi\aimapirange.h(35) : warning C4290: C++ Exception Specification ignored
+        p:\ict\sys\dias\code\common\TESLA\TESLA.cpp(263) : see reference to class template instantiation 'CaImAPIRange<class CVariable>' being compiled
+Linking...
+
+
+
+<h3>Results</h3>
+TESLA.dll - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: aImAPI - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\tmp\winxp\tmp\RSP182.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"..\..\..\Temp\Debug\aImAPI/aImAPI.pch" /Yu"stdafx.h" /Fo"..\..\..\Temp\Debug\aImAPI/" /Fd"..\..\..\Temp\Debug\aImAPI/" /FD /GZ /c 
+"p:\ict\sys\dias\code\common\aImAPI\aImAPIException.cpp"
+"p:\ict\sys\dias\code\common\aImAPI\aImAPIObject.cpp"
+]
+Creating command line "cl.exe @c:\tmp\winxp\tmp\RSP182.tmp" 
+Creating temporary file "c:\tmp\winxp\tmp\RSP183.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"..\..\..\Release\Shared/aImAPI.pdb" /debug /machine:I386 /def:".\aImAPI.def" /out:"..\..\..\Release\Shared/aImAPI.dll" /implib:"..\..\..\Release\Shared/aImAPI.lib" /pdbtype:sept 
+\ict\sys\dias\Temp\Debug\aImAPI\aImAPI.obj
+\ict\sys\dias\Temp\Debug\aImAPI\aImAPIException.obj
+\ict\sys\dias\Temp\Debug\aImAPI\aImAPIObject.obj
+\ict\sys\dias\Temp\Debug\aImAPI\StdAfx.obj
+\ict\sys\dias\Temp\Debug\aImAPI\aImAPI.res
+]
+Creating command line "link.exe @c:\tmp\winxp\tmp\RSP183.tmp"
+<h3>Output Window</h3>
+Compiling...
+aImAPIException.cpp
+p:\ict\sys\dias\code\include\aimapi\aimapirange.h(35) : warning C4290: C++ Exception Specification ignored
+        p:\ict\sys\dias\code\include\aimapi\aimapirange.h(86) : see reference to class template instantiation 'CaImAPIRange<T>' being compiled
+Generating Code...
+Compiling...
+aImAPIObject.cpp
+p:\ict\sys\dias\code\include\aimapi\aimapirange.h(35) : warning C4290: C++ Exception Specification ignored
+        p:\ict\sys\dias\code\include\aimapi\aimapirange.h(86) : see reference to class template instantiation 'CaImAPIRange<T>' being compiled
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+aImAPI.dll - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,49 @@
+#if !defined(AFX_`BIGNAME`_H__2646CB6B_BCEF_4CDB_A6B0_CF7DEAEB4B26__INCLUDED_)
+#define AFX_`BIGNAME`_H__2646CB6B_BCEF_4CDB_A6B0_CF7DEAEB4B26__INCLUDED_
+
+#pragma once
+
+class `CLSNAME` : public CaImAPIObject {
+friend class CHash<`CLSNAME`*,`CLSNAME`>;
+friend class CaImAPIRange<`CLSNAME`>;
+friend class CaImAPICollection<`CLSNAME`>;
+friend class CaImAPICollectionExt<`CLSNAME`>;
+// RANGE	friend class `RNGNAME`;
+friend class `COLLNAME`;
+friend class `PARENTCLS`;
+// Construction
+	DECLARE_SERIAL (`CLSNAME`);
+protected:
+	`CLSNAME` ();
+public:
+	`CLSNAME` (const `CLSNAME`& obj);
+	`CLSNAME` (...);
+	`CLSNAME`& operator= (const `CLSNAME`&) throw (CaImAPIException);
+	~`CLSNAME` ();
+
+// Attributes
+public:
+
+protected:
+
+// Operations
+public:
+	void Clear ();
+	void Update (CaImAPIObject* pObj, udword dwFlags);
+
+protected:
+
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(`CLSNAME`)
+public:
+	void Serialize (CArchive& ar);
+	//}}AFX_VIRTUAL
+};
+/////////////////////////////////////////////////////////////////////////////
+
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+
+#endif // !defined(AFX_`BIGNAME`_H__2646CB6B_BCEF_4CDB_A6B0_CF7DEAEB4B26__INCLUDED_)

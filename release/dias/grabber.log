@@ -1,0 +1,41 @@
+
+------------------------------------------------------------------
+Filename: GRABBER.LOG created at 12:37:46 11/27/03 by Q:\Personal\Projects\Systems\aIm Suite.Forthcoming\Release\Dias\Dias.exe
+
+****** Operating System *******
+OSWIN32: C:\WINDOWS\System32\OSWIN32.DLL
+Operating System: NT 5.1 (2600)
+MatrixFG Version: 1.65
+
+****** Driver Information *******
+Device Type: 0xA0
+Device Name: SLx
+Driver Type: MICROSOFT-WIN32
+Driver Date: Apr  6 2001
+Driver Time: 16:51:40
+
+****** PCI-Slot Information *******
+ BN BR SL  VNID  DVID  RVID  CMDR  BASEADDR  ROMADDR IRQ  L LAT
+ --------------------------------------------------------------
+  0 00 00  8086  1A30  0011  0106  E0000008  00000000   0 0   0
+  1 00 01  8086  1A31  0011  0107  00000000  00000000   0 0  20
+  2 00 1D  8086  24C2  0001  0005  00000000  00000000  16 1   0
+  3 00 1E  8086  244E  0081  0107  00000000  00000000   0 0   0
+  4 00 1F  8086  24C0  0001  010F  00000000  00000000   0 0   0
+  5 01 00  10DE  0172  00A3  0007  FD000000  00000000  16 1  F8
+                                   d8000008 
+                                   dc680008 
+  6 02 02  1050  0940  0000  0103  0000DC01  00000000  18 1   0
+  7 02 08  8086  1039  0081  0117  FEAFE000  00000000  20 1  20
+                                   0000d481 
+  8 02 0C  10CD  1300  0003  0117  0000D801  FEAE0000  17 1  20
+                                   feaffc00 
+
+PCI Bus hw-mech = 1, ver=0000, last bus = 31
+DirectDraw installed.
+Display:  1600 x 1200 x 32 bpp, VEN/DEV-ID = $10de/$0172  Address: $d8000000
+Error: 15 PCI-Board VEN=109E, DEV=0350 not found!
+SetPCILatency(0,0,200), old latency = 0
+FGDevice Information  FGDevice Information 15 : PCI-Board VEN=109E, DEV=0350 not found!
+
+****** Board closed ******
